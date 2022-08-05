@@ -14,7 +14,7 @@ export default function App() {
   const [showCardId, setShowCardId] = useState(cardId);
 
   useEffect(() => {
-    axios.get("http://localhost:8901/data").then((res) => {
+    axios.get("http://localhost:8000/data").then((res) => {
       setCategories(res.data);
     });
   }, []);
@@ -34,7 +34,7 @@ export default function App() {
     e.preventDefault();
     setShowCardId((prevShowCardId) => cardId);
     axios
-      .get("http://localhost:8900/data", {
+      .get("http://localhost:8000/cards", {
         params: {
           id: cardIdEl.current.value,
           category: categoryEl.current.value,
