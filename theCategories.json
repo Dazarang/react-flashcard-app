@@ -1,0 +1,12 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Words"
+    },
+    {
+      "id": 2,
+      "name": "Animals"
+    }
+  ]
+}

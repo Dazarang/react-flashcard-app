@@ -1,0 +1,146 @@
+{
+  "data": [
+    {
+      "category": 1,
+      "id": 1,
+      "eng": "the",
+      "spa": "el, la",
+      "ex": [
+        "el diccionario tenía también frases útiles",
+        "the dictionary also had useful phrases"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 2,
+      "eng": "of, from",
+      "spa": "de",
+      "ex": [
+        "es el hijo de un amigo mío",
+        "he is the son of a friend of mine"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 3,
+      "eng": "that, which",
+      "spa": "que",
+      "ex": [
+        "dice que no quiere estudiar",
+        "he says that he doesn’t want to study"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 4,
+      "eng": "and",
+      "spa": "y",
+      "ex": [
+        "saben leer y escribir ",
+        "they know how to read and write"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 5,
+      "eng": "in, on",
+      "spa": "en",
+      "ex": [
+        "vivo en el segundo piso ",
+        "I live on the second floor"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 6,
+      "eng": "a, an",
+      "spa": "un",
+      "ex": [
+        "era un hombre simpático ",
+        " he was a nice man"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 7,
+      "eng": "to be (norm)",
+      "spa": "ser",
+      "ex": [
+        "la primera persona narrativa puede ser por el protagonista ",
+        " the first person narrative can be through the protagonist"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 8,
+      "eng": "to, at",
+      "spa": "a",
+      "ex": [
+        "me voy al extranjero por el verano ",
+        " I am going abroad for the summer"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 9,
+      "eng": "he, [ellos] them (m)",
+      "spa": "él",
+      "ex": [
+        "él es bastante simpático ",
+        " he is very nice"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 10,
+      "eng": "the (+neut)",
+      "spa": "lo",
+      "ex": [
+        "lo mejor es estudiar mucho ",
+        " the best thing is to study a lot"
+      ]
+    },
+    {
+      "category": 2,
+      "id": 1,
+      "eng": "dog",
+      "spa": "perro",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 2,
+      "eng": "horse",
+      "spa": "caballo",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 3,
+      "eng": "bird",
+      "spa": "pajaro",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 4,
+      "eng": "cat",
+      "spa": "gato",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 5,
+      "eng": "bird",
+      "spa": "ave",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 6,
+      "eng": "lion",
+      "spa": "leon",
+      "ex": []
+    }
+  ]
+}
