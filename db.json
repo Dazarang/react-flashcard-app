@@ -7,14 +7,22 @@
     {
       "id": 2,
       "name": "Animals"
+    },
+    {
+      "id": 3,
+      "name": "Body"
+    },
+    {
+      "id": 4,
+      "name": "Food"
     }
   ],
   "cards": [
     {
       "category": 1,
       "id": 1,
-      "eng": "the",
       "spa": "el, la",
+      "eng": "the",
       "ex": [
         "el diccionario tenía también frases útiles",
         "the dictionary also had useful phrases"
@@ -23,8 +31,8 @@
     {
       "category": 1,
       "id": 2,
-      "eng": "of, from",
       "spa": "de",
+      "eng": "of, from",
       "ex": [
         "es el hijo de un amigo mío",
         "he is the son of a friend of mine"
@@ -33,8 +41,8 @@
     {
       "category": 1,
       "id": 3,
-      "eng": "that, which",
       "spa": "que",
+      "eng": "that, which",
       "ex": [
         "dice que no quiere estudiar",
         "he says that he doesn’t want to study"
@@ -43,113 +51,5820 @@
     {
       "category": 1,
       "id": 4,
-      "eng": "and",
       "spa": "y",
+      "eng": "and",
       "ex": [
-        "saben leer y escribir ",
+        "saben leer y escribir",
         "they know how to read and write"
       ]
     },
     {
       "category": 1,
       "id": 5,
-      "eng": "in, on",
       "spa": "en",
+      "eng": "in, on",
       "ex": [
-        "vivo en el segundo piso ",
+        "vivo en el segundo piso",
         "I live on the second floor"
       ]
     },
     {
       "category": 1,
       "id": 6,
-      "eng": "a, an",
       "spa": "un",
+      "eng": "a, an",
       "ex": [
-        "era un hombre simpático ",
-        " he was a nice man"
+        "era un hombre simpático",
+        "he was a nice man"
       ]
     },
     {
       "category": 1,
       "id": 7,
-      "eng": "to be (norm)",
       "spa": "ser",
+      "eng": "to be",
       "ex": [
-        "la primera persona narrativa puede ser por el protagonista ",
-        " the first person narrative can be through the protagonist"
+        "la primera persona narrativa puede ser por el protagonista",
+        "the first-person narrative can be through the protagonist"
       ]
     },
     {
       "category": 1,
       "id": 8,
-      "eng": "to, at",
       "spa": "a",
+      "eng": "to, at",
       "ex": [
-        "me voy al extranjero por el verano ",
-        " I am going abroad for the summer"
+        "me voy al extranjero por el verano",
+        "I am going abroad for the summer"
       ]
     },
     {
       "category": 1,
       "id": 9,
-      "eng": "he, [ellos] them (m)",
       "spa": "él",
+      "eng": "he, [ellos] them",
       "ex": [
-        "él es bastante simpático ",
-        " he is very nice"
+        "él es bastante simpático",
+        "he is very nice"
       ]
     },
     {
       "category": 1,
       "id": 10,
-      "eng": "the (+neut)",
       "spa": "lo",
+      "eng": "the (+neut)",
       "ex": [
-        "lo mejor es estudiar mucho ",
-        " the best thing is to study a lot"
+        "lo mejor es estudiar mucho",
+        "the best thing is to study a lot"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 11,
+      "spa": "no",
+      "eng": "no",
+      "ex": [
+        "no tiene dinero",
+        "he has no money"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 12,
+      "spa": "su",
+      "eng": "his/her/their/your",
+      "ex": [
+        "¿Quién era? ¿Su hermana? ¿Su amiga?",
+        "Who was it? His sister? Her friend?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 13,
+      "spa": "haber",
+      "eng": "to have",
+      "ex": [
+        "no ha dicho nada",
+        "he hasn’t said a thing"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 14,
+      "spa": "con",
+      "eng": "with",
+      "ex": [
+        "hay un hombre con ella",
+        "there is a man with her"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 15,
+      "spa": "por",
+      "eng": "by, for, through",
+      "ex": [
+        "caminamos por el parque",
+        "we walked through the park"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 16,
+      "spa": "para",
+      "eng": "for,to, in order to",
+      "ex": [
+        "¡Tengo una sorpresa sensacional para ti!",
+        "I have a wonderful surprise for you!"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 17,
+      "spa": "mi",
+      "eng": "me",
+      "ex": [
+        "el regalo era para mí",
+        "the gift was for me"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 18,
+      "spa": "lo",
+      "eng": "pron (3rd person)",
+      "ex": [
+        "lo compré en la tienda",
+        "I bought it at the store"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 19,
+      "spa": "tener",
+      "eng": "to have",
+      "ex": [
+        "Mi padre tiene varios relojes antiguos",
+        "My father has several antique watches"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 20,
+      "spa": "como",
+      "eng": "like",
+      "ex": [
+        "ser compositor en España es como ser torero en Finlandia",
+        "being a composer in Spain is like being a bullfighter in Finland"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 21,
+      "spa": "estar",
+      "eng": "to be",
+      "ex": [
+        "él está en el trabajo",
+        "he is at work"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 22,
+      "spa": "me",
+      "eng": "me",
+      "ex": [
+        "¿Cuando me va a llamar?",
+        "When is he going to call me?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 23,
+      "spa": "más",
+      "eng": "more",
+      "ex": [
+        "él necesitaba más dinero",
+        "he needed more money"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 24,
+      "spa": "este",
+      "eng": "this",
+      "ex": [
+        "es igual en el este como en el oeste",
+        "it is the same in the east as in the west"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 25,
+      "spa": "le",
+      "eng": "pron (3rd person)",
+      "ex": [
+        "nunca le dijo la verdad",
+        "she never told him the truth"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 26,
+      "spa": "hacer",
+      "eng": "to do, make",
+      "ex": [
+        "he podido hacer lo que me gusta",
+        "I have been able to do what I like"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 27,
+      "spa": "se",
+      "eng": "pron [“reflexive” marker]",
+      "ex": [
+        "el saber de los geógrafos griegos se difundió por Europa",
+        "Greek knowledge of geography spread throughout Europe"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 28,
+      "spa": "yo",
+      "eng": "I",
+      "ex": [
+        "¡Yo soy el padre!",
+        "I am the father!"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 29,
+      "spa": "of, from",
+      "eng": "or",
+      "ex": [
+        "sí esperaba uno o dos muertos",
+        "yes, he expected one or two deaths"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 30,
+      "spa": "pero",
+      "eng": "but, yet, except",
+      "ex": [
+        "no significa nada para mí, pero no puedo olvidarla",
+        "it means nothing to me, but I can’t forget it"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 31,
+      "spa": "decir",
+      "eng": "to tell",
+      "ex": [
+        "Parece que dice la verdad",
+        "It seems like he is telling the truth"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 32,
+      "spa": "poder",
+      "eng": "to be able to, can",
+      "ex": [
+        "Con estos datos se puede tener una primera idea del mecanismo",
+        "With these facts we can begin to understand the mechanism"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 33,
+      "spa": "ir",
+      "eng": "to go",
+      "ex": [
+        "Quieres ir a la playa este fin de semana?",
+        "Do you want to go to the beach this weekend?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 34,
+      "spa": "ese",
+      "eng": "that",
+      "ex": [
+        "¿Dónde viven esas mujeres?",
+        "Where do these women live?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 35,
+      "spa": "otro",
+      "eng": "other, another",
+      "ex": [
+        "No comparte su taxi nunca con otros viajeros a menos que les conoce",
+        "Don’t share your taxi with other travelers unless you know them"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 36,
+      "spa": "si",
+      "eng": "if, whether",
+      "ex": [
+        "si quiere cazar, vamos a cazar",
+        "if he wants to hunt, let’s go"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 37,
+      "spa": "mi",
+      "eng": "my",
+      "ex": [
+        "mi casa es su casa",
+        "my house is your house"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 38,
+      "spa": "ver",
+      "eng": "to see",
+      "ex": [
+        "había que subir para ver las ruinas",
+        "you have to climb up to see the ruins"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 39,
+      "spa": "ya",
+      "eng": "already, still",
+      "ex": [
+        "su marido ya ha dicho todo",
+        "her husband has already said it all"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 40,
+      "spa": "porque",
+      "eng": "because",
+      "ex": [
+        "lo vendo sólo porque tengo un problema muy grande",
+        "I am only selling it because I am in a"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 41,
+      "spa": "mucho",
+      "eng": "much, many, a lot",
+      "ex": [
+        "por lo visto tienen mucho dinero",
+        "apparently they have a lot of money"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 42,
+      "spa": "dar",
+      "eng": "to give",
+      "ex": [
+        "me dio esta carta para ud",
+        "he gave me this letter for you"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 43,
+      "spa": "muy",
+      "eng": "very, really",
+      "ex": [
+        "está muy contento con mi trabajo",
+        "she is very happy with my work"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 44,
+      "spa": "saber",
+      "eng": "to know (a fact), find out",
+      "ex": [
+        "se necesita humildad para saber reconocer las propias faltas",
+        "you need humility to know how to recognize your own faults"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 45,
+      "spa": "sí",
+      "eng": "yes",
+      "ex": [
+        "quiero una respuesta concreta: sí o no",
+        "I need a solid answer: yes or no"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 46,
+      "spa": "año",
+      "eng": "year",
+      "ex": [
+        "no lo supo hasta casi un año después",
+        "he didn’t find out until almost a year later"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 47,
+      "spa": "ti",
+      "eng": "you",
+      "ex": [
+        "no, la carta no es para ti",
+        "no, the letter is not for you"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 48,
+      "spa": "te",
+      "eng": "you",
+      "ex": [
+        "¿No te han hablado?",
+        "They haven’t spoken with you?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 49,
+      "spa": "también",
+      "eng": "also",
+      "ex": [
+        "también habla italiano",
+        "she speaks Italian as well"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 50,
+      "spa": "qué",
+      "eng": "what?, which?, how",
+      "ex": [
+        "no sé qué voy a hacer",
+        "I don’t know what I’m going to do"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 51,
+      "spa": "alguno",
+      "eng": "some, a few",
+      "ex": [
+        "habló algunas palabras con el agente de negocios",
+        "he spoke a few words with the business agent"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 52,
+      "spa": "nos",
+      "eng": "us",
+      "ex": [
+        "nos vio en la calle",
+        "he saw us on the street"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 53,
+      "spa": "tu",
+      "eng": "your",
+      "ex": [
+        "ésta es tu casa y ésta es tu cama",
+        "this is your house and this is your bed"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 54,
+      "spa": "sin",
+      "eng": "without",
+      "ex": [
+        "se habían quedado sin dinero",
+        "they were left without money"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 55,
+      "spa": "mismo",
+      "eng": "same",
+      "ex": [
+        "pronunciando el mismo discurso en siete idiomas",
+        "giving the same speech in seven languages"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 56,
+      "spa": "eso",
+      "eng": "that",
+      "ex": [
+        "y eso no es todo",
+        "and that isn’t everything"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 57,
+      "spa": "cuando",
+      "eng": "when",
+      "ex": [
+        " aquel libro es de mis nietos, cuando eran bebes todavía",
+        "that book belonged to my grandchildren, when they were still babies"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 58,
+      "spa": "querer",
+      "eng": "to want, love",
+      "ex": [
+        "quiero que este proceso salga con limpieza",
+        "I want this process to go cleanly"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 59,
+      "spa": "vez",
+      "eng": "time",
+      "ex": [
+        "es la primera vez que estoy junto al mar",
+        "this is the first time that I have been near to the sea"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 60,
+      "spa": "hasta",
+      "eng": "until, up to, even",
+      "ex": [
+        "toda la noche, hasta las tres de la mañana",
+        "all night long, until three in the morning"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 61,
+      "spa": "la",
+      "eng": "pron (3rd person)",
+      "ex": [
+        "la puso en su bolsillo",
+        "he put it in his pocket"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 62,
+      "spa": "sobre",
+      "eng": "on to of, over, about",
+      "ex": [
+        "dejó el papel sobre la mesa y se fue",
+        " he left the paper on top of the table and left"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 63,
+      "spa": "entre",
+      "eng": "between, among",
+      "ex": [
+        "la cosa es entre tú y yo",
+        "the matter is between you and me"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 64,
+      "spa": "dos",
+      "eng": "two",
+      "ex": [
+        "la familia se reúne cada dos años",
+        "the family gets together every two years"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 65,
+      "spa": "dia",
+      "eng": "day",
+      "ex": [
+        "cada día hay más problemas",
+        " every day there are more problems"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 66,
+      "spa": "grande",
+      "eng": "large, great, big",
+      "ex": [
+        "tiene los grandes ojos negros y bonitos",
+        "she has the biggest and most beautiful black eyes"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 67,
+      "spa": "así",
+      "eng": "like that",
+      "ex": [
+        "la vida es así",
+        "life is like that"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 68,
+      "spa": "pasar",
+      "eng": "to pass, spend (time)",
+      "ex": [
+        "no ha pasado ni un bus",
+        "not a single bus has passed b"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 69,
+      "spa": "cosa",
+      "eng": "thing",
+      "ex": [
+        "estoy ya interesado en otra cosa",
+        "I am interested in a different matter"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 70,
+      "spa": "desde",
+      "eng": "from, since",
+      "ex": [
+        "Lo habia pensado desde el principio que era una mal idea",
+        "I thought from the beginning that this was a bad idea"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 71,
+      "spa": "deber",
+      "eng": "should, ought to; to owe",
+      "ex": [
+        "la cosa está en el lugar donde debe estar",
+        "the thing is in the place where it should be"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 72,
+      "spa": "ella",
+      "eng": "then, well then",
+      "ex": [
+        "ella es muy estudiosa",
+        " she is very studious"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 73,
+      "spa": "pues",
+      "eng": "then, well then",
+      "ex": [
+        "pues, venga usted cuando quiera",
+        "well then, come whenever you want"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 74,
+      "spa": "entonces",
+      "eng": "so, then",
+      "ex": [
+        "vamos entonces a cambiarlo",
+        " then we are going to change it"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 75,
+      "spa": "llegar",
+      "eng": "to arrive",
+      "ex": [
+        "por fin llegamos al fondo de la catarata",
+        "we finally arrived at the bottom of the waterfall"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 76,
+      "spa": "poco",
+      "eng": "little, few, a little bit",
+      "ex": [
+        "trabajó poco tiempo con él",
+        "he worked a little while with him"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 77,
+      "spa": "nuestro",
+      "eng": "our",
+      "ex": [
+        "no servía para nuestro país porque somos diferentes",
+        "it was no good for our contry because we’re different"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 78,
+      "spa": "bien",
+      "eng": "well",
+      "ex": [
+        "el número de bienes que pueda poseer en un momento dado",
+        "the number of goods one possesses in a given moment"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 79,
+      "spa": "ni",
+      "eng": "not even, neither, nor",
+      "ex": [
+        "pero ni eso me tranquilizó",
+        "but not even that reassured me"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 80,
+      "spa": "tiempo",
+      "eng": "time",
+      "ex": [
+        "ha estado mucho tiempo con ella",
+        "he has been with her a long time"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 81,
+      "spa": "ahora",
+      "eng": "now",
+      "ex": [
+        "lo importante ahora es contarte lo que le pasó",
+        "the important thing now is to tell you what happened"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 82,
+      "spa": "primero",
+      "eng": "first",
+      "ex": [
+        "Primero, vamos a ir al supermercado",
+        "First, we are going to go to the grocery store"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 83,
+      "spa": "creer",
+      "eng": "to believe, think",
+      "ex": [
+        "creo en la justicia de Dios",
+        "I believe in the justice of God"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 84,
+      "spa": "donde",
+      "eng": "where",
+      "ex": [
+        "no sé donde está la llave",
+        "I don’t know where the key is"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 85,
+      "spa": "vida",
+      "eng": "life",
+      "ex": [
+        "ha dedicado toda la vida a la música",
+        "she has dedicated her life to music"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 86,
+      "spa": "dejar",
+      "eng": "to let, leave",
+      "ex": [
+        "ella no dejó que yo lo olvidara",
+        " she didn’t let me forget it"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 87,
+      "spa": "nada",
+      "eng": "nothing, (not) at all",
+      "ex": [
+        "no hay nada que hacer",
+        " there is nothing to do"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 88,
+      "spa": "tanto",
+      "eng": "so much, so many",
+      "ex": [
+        "no podía creer que haya tanta gente junta",
+        "I couldn’t believe there were so many people together"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 89,
+      "spa": "parecer",
+      "eng": "to seem, look like",
+      "ex": [
+        "Mi burra es tan flaca parece un esqueleto",
+        "My donkey is so thin he looks like a skeleton"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 90,
+      "spa": "hablar",
+      "eng": "to speak, talk",
+      "ex": [
+        "algunos hablan quechua, español, e inglés",
+        "some of them speak Quechua, Spanish, and English"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 91,
+      "spa": "poner",
+      "eng": "to put (on), get",
+      "ex": [
+        "puso el cuchillo en la mano",
+        " he put the knife in his hand"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 92,
+      "spa": "parte",
+      "eng": "part, portion",
+      "ex": [
+        "el arte es una parte tan importante de la cultura",
+        "art is such an important part of culture"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 93,
+      "spa": "eh",
+      "eng": "eh",
+      "ex": [
+        "Te interesa esta bufanda, ¿eh?",
+        "You are interested in this scarf, eh?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 94,
+      "spa": "nuevo",
+      "eng": "new",
+      "ex": [
+        "marcaba el comienzo de una nueva vida para mí",
+        "it marked the beginning of a new life for me"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 95,
+      "spa": "sólo",
+      "eng": "only, just",
+      "ex": [
+        "no siempre vestía ropa de mujer; sólo en carnaval",
+        "I don’t always wear women’s clothes; only during carnival"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 96,
+      "spa": "siempre",
+      "eng": "always, forever",
+      "ex": [
+        "siempre ha sido así",
+        "she has always been like that"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 97,
+      "spa": "hombre",
+      "eng": "man, mankind, husband",
+      "ex": [
+        "yo soy un hombre de pocas necesidades",
+        "I am a man of few needs"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 98,
+      "spa": "bueno",
+      "eng": "well",
+      "ex": [
+        "Bueno, ¿y ahora qué hacemos?",
+        "Well, so what are we going to do now?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 99,
+      "spa": "seguir",
+      "eng": "to follow, keep on",
+      "ex": [
+        "no la puedo seguir porque habla demasiado rápido",
+        "I couldn’t keep up because she was speaking so quickly"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 100,
+      "spa": "quedar",
+      "eng": "to remain, stay",
+      "ex": [
+        "El aire empezó a quedarse quieto",
+        "The air began to remain still"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 101,
+      "spa": "llevar",
+      "eng": "to take, carry",
+      "ex": [
+        "colgado al hombro llevaba un bolso",
+        "the man carried a bag over his shoulder"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 102,
+      "spa": "encontrar",
+      "eng": "to find",
+      "ex": [
+        "encontró un lugar apropiado para instalar la sucursal",
+        "he found a suitable place to set up the office"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 103,
+      "spa": "bueno",
+      "eng": "good",
+      "ex": [
+        "Bueno, ¿y ahora qué hacemos?",
+        "Well, so what are we going to do now?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 104,
+      "spa": "tan",
+      "eng": "such, as, too, so",
+      "ex": [
+        "¡Tiene unas orejas tan grandes!",
+        " His ears are so big!"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 105,
+      "spa": "pensar",
+      "eng": "to think",
+      "ex": [
+        "trataba de pensar de dónde podría sacar el dinero",
+        "he tried to think of where he could get some money"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 106,
+      "spa": "casa",
+      "eng": "house",
+      "ex": [
+        "bienvenido a mi casa",
+        " welcome to my home"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 107,
+      "spa": "cada",
+      "eng": "each, every",
+      "ex": [
+        "aprendo cada día un poco más",
+        "I learn a little more each day"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 108,
+      "spa": "persona",
+      "eng": "person",
+      "ex": [
+        "era una persona de mucho talento",
+        "she was a very talented person"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 109,
+      "spa": "país",
+      "eng": "country",
+      "ex": [
+        "ha viajado por todos los países de las Américas",
+        "he has traveled through all the countries in the Americas"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 110,
+      "spa": "algo",
+      "eng": "something, somewhat",
+      "ex": [
+        "tengo algo que decirte",
+        " I have something to tell you"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 111,
+      "spa": "esto",
+      "eng": "this",
+      "ex": [
+        "quiero esto o aquello",
+        "I want this or that"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 112,
+      "spa": "volver",
+      "eng": "to return",
+      "ex": [
+        "Los habitantes afectados pueden volver a sus casas",
+        "Affected people can return to their homes"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 113,
+      "spa": "usted",
+      "eng": "you",
+      "ex": [
+        "Cómo está usted?",
+        "How are you?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 114,
+      "spa": "salir",
+      "eng": "to leave, go out",
+      "ex": [
+        "¿A qué hora sale el tren?",
+        "What time does the train leave?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 115,
+      "spa": "después",
+      "eng": "after",
+      "ex": [
+        "vamos a dar un paseo después de comer",
+        "we are going to go for a walk after eating"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 116,
+      "spa": "mejor",
+      "eng": "first",
+      "ex": [
+        "yo, al fin y al cabo, soy el mejor amigo",
+        "I, after all, am the best friend"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 117,
+      "spa": "menos",
+      "eng": "less, fewer",
+      "ex": [
+        "no vale más ni menos que la anterior",
+        "it is worth no more nor less than the previous one"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 118,
+      "spa": "venir",
+      "eng": "to come",
+      "ex": [
+        "unos afirman que el jazz viene de África",
+        "some say jazz comes from Africa"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 119,
+      "spa": "forma",
+      "eng": "form, shape, way",
+      "ex": [
+        "necesito estar en buena forma física",
+        "I need to be in good physical shape"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 120,
+      "spa": "mujer",
+      "eng": "woman, wife",
+      "ex": [
+        "su mamá es una mujer muy enferma y no puede trabajar",
+        "your mother is a very sick woman and she cannot work"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 121,
+      "spa": "momento",
+      "eng": "moment, time",
+      "ex": [
+        "estaba pasando uno de los peores momentos de mi vida",
+        " I was having one of the worst moments of my life"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 122,
+      "spa": "llamar",
+      "eng": "to call, name",
+      "ex": [
+        "el juez se llamaba Pedro Barreda",
+        "the judge was named Pedro Barreda"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 123,
+      "spa": "mundo",
+      "eng": "world",
+      "ex": [
+        "no se parecía a ninguna ciudad del mundo",
+        "it didn’t look like any other city in the world"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 124,
+      "spa": "claro",
+      "eng": "clear",
+      "ex": [
+        "Eres genial por explicarlo de forma tan clara",
+        " It is so nice of you to explain it in such a clear way."
+      ]
+    },
+    {
+      "category": 1,
+      "id": 125,
+      "spa": "mirar",
+      "eng": "to look, watch",
+      "ex": [
+        "miraba distraída a las estrellas",
+        "I gazed absentmindedly at the stars"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 126,
+      "spa": "medios",
+      "eng": "means, resources",
+      "ex": [
+        "No cuenta con los medios suficientes para comprar los medicamentos que necesita",
+        " He doesn’t have the means to buy the medicine he needs."
+      ]
+    },
+    {
+      "category": 1,
+      "id": 127,
+      "spa": "mientras",
+      "eng": "while, whereas, as long as",
+      "ex": [
+        "nos miró mientras comía un gran trozo de pan",
+        "he looked at us while eating a big piece of bread"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 128,
+      "spa": "conocer",
+      "eng": "to know (someone or place)",
+      "ex": [
+        "ella conoce muy bien a Nicolás",
+        "she knows Nicholas very well"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 129,
+      "spa": "aquel",
+      "eng": "that (over there)",
+      "ex": [
+        "unos veinte millones de pesetas (de aquella época)",
+        "about twenty million pesetas (at that time)"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 130,
+      "spa": "aquí",
+      "eng": "here",
+      "ex": [
+        "¡Aquí hay dos también!",
+        " There are two here as well!"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 131,
+      "spa": "anuque",
+      "eng": "although, even though",
+      "ex": [
+        "aunque hay problemas, muchos se pueden evitar",
+        "even though there are problems, many can be avoided"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 132,
+      "spa": "quien",
+      "eng": "who, whom",
+      "ex": [
+        "Quién sabe el título de la película?",
+        "Who knows the name of the movie?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 133,
+      "spa": "tomar",
+      "eng": "to take, drink",
+      "ex": [
+        "mi padre tomó un sorbo de agua y continuó hablando",
+        "my father drank a sip of water and continued speaking"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 134,
+      "spa": "tres",
+      "eng": "three",
+      "ex": [
+        "hay tres direcciones: diagonal, horizontal, y vertical",
+        "there are three directions: diagonal, horizontal, and vertical"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 135,
+      "spa": "mano",
+      "eng": "hand",
+      "ex": [
+        "se pueden contar con los dedos de la mano",
+        "you can can count with the fingers on one hand"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 136,
+      "spa": "sentir",
+      "eng": "to feel, regret",
+      "ex": [
+        "es una expresión personal de un sentir personal de él",
+        "it is a personal expression of his personal feeling"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 137,
+      "spa": "gente",
+      "eng": "people",
+      "ex": [
+        "la gente tiene miedo de perder su identidad",
+        "people are scared of losing their identity"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 138,
+      "spa": "cuándo",
+      "eng": "when?",
+      "ex": [
+        "¿Cuándo vuelven? preguntó",
+        "When do they return? he asked"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 139,
+      "spa": "durante",
+      "eng": "during",
+      "ex": [
+        "durante una semana traté de no verla",
+        "during the week I tried not to see her"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 140,
+      "spa": "hijo",
+      "eng": "son",
+      "ex": [
+        "cada padre espera que su hijo sea más que él",
+        "every father hopes that his child will be more than him"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 141,
+      "spa": "tratar",
+      "eng": "to try, treat, deal with",
+      "ex": [
+        "Traté de aprender español, pero es muy difícil",
+        "I tried to learn Spanish, but it is very difficult"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 142,
+      "spa": "vivir",
+      "eng": "to live",
+      "ex": [
+        "vamos a Buenos Aires, a vivir en la miseria",
+        "I am going to Buenos Aires to live in poverty"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 143,
+      "spa": "sino",
+      "eng": "but, except, rather",
+      "ex": [
+        "no somos nosotros el centro sino ella",
+        "we are not the focus, but rather she is"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 144,
+      "spa": "lugar",
+      "eng": "place, position",
+      "ex": [
+        "es el lugar más lindo de la costa",
+        "it is the most beautiful place on the coast"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 145,
+      "spa": "problema",
+      "eng": "problem",
+      "ex": [
+        "el problema es que no nos queda tiempo",
+        "the problem is that we don’t have enough time"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 146,
+      "spa": "hacia",
+      "eng": "toward, towards",
+      "ex": [
+        "sus sentimientos hacia él son todavía tan firmes",
+        "her feelings for him are still so strong"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 147,
+      "spa": "presidente",
+      "eng": "president",
+      "ex": [
+        "el presidente es la máxima autoridad del país",
+        "the president is the one with the most authority in the country"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 148,
+      "spa": "cual",
+      "eng": "which, who, whom",
+      "ex": [
+        "el amor fue el motivo por el cual lo hizo",
+        "love was the reason for which he did it"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 149,
+      "spa": "junto",
+      "eng": "together",
+      "ex": [
+        "la tierra giraba en torno al sol junto con cinco planetas más",
+        "the earth revolved around the sun together with five more planets"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 150,
+      "spa": "luego",
+      "eng": "later, afterwards",
+      "ex": [
+        "primero está ella y luego yo",
+        "she’s first then I’m next"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 151,
+      "spa": "cómo",
+      "eng": "how?",
+      "ex": [
+        "¿Cómo se hace un pastel de chocolate?",
+        "How do you make a chocolate cake?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 152,
+      "spa": "trabajo",
+      "eng": "work, job, effort",
+      "ex": [
+        "pasó su vida entera dedicado a su trabajo",
+        " she spent her entire life dedicated to her work"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 153,
+      "spa": "caso",
+      "eng": "case, occasion",
+      "ex": [
+        "luego, en este caso está plenamente justificada",
+        " then, in this case it is fully justified"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 154,
+      "spa": "mayor",
+      "eng": "larger, older, main",
+      "ex": [
+        "yo trabajé la mayor parte del tiempo",
+        " I worked the majority of the time"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 155,
+      "spa": "además",
+      "eng": "also, as well, besides",
+      "ex": [
+        "además de español, ¿hablas algún otro idioma?",
+        "besides Spanish, do you speak any other language?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 156,
+      "spa": "acercar",
+      "eng": "to come near",
+      "ex": [
+        "ella me miró, se acercó, me besó",
+        "she looked at me, came up to me, and kissed me"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 157,
+      "spa": "esperar",
+      "eng": "to wait, hope (for), expect",
+      "ex": [
+        "te esperaremos en el restaurante",
+        "we’ll wait for you at the restaurant"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 158,
+      "spa": "nunca",
+      "eng": "never, ever",
+      "ex": [
+        "se aprecia ahora más que nunca la libertad",
+        "you appreciate freedom now more than ever"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 159,
+      "spa": "cierto",
+      "eng": "certain, sure, true",
+      "ex": [
+        "no sé si esto es cierto o no",
+        " I don’t know if this is true or not"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 160,
+      "spa": "hora",
+      "eng": "hour, time",
+      "ex": [
+        "te veo dentro de media hora",
+        "I will see you in half an hour"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 161,
+      "spa": "dónde",
+      "eng": "where?",
+      "ex": [
+        "¿Dónde está escrito esto en la historia?",
+        "Where is that written in history?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 162,
+      "spa": "padre",
+      "eng": "father",
+      "ex": [
+        "¿Es el padre de mi futuro hijo?",
+        "Is he the father of my future child?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 163,
+      "spa": "gustar",
+      "eng": "to be pleasing to",
+      "ex": [
+        "¡Me gusta mucho la música folklórica!",
+        "I really like country music!"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 164,
+      "spa": "noche",
+      "eng": "night, evening",
+      "ex": [
+        "trabaja por la mañana, por la tarde, y por la noche",
+        "he works in the morning, the afternoon, and the evening"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 165,
+      "spa": "nosotros",
+      "eng": "we",
+      "ex": [
+        "ábrenos! somos nosotros",
+        "open up! it’s us"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 166,
+      "spa": "casi",
+      "eng": "almost, nearly",
+      "ex": [
+        "estamos casi siempre solos",
+        "we are almost always alone"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 167,
+      "spa": "hoy",
+      "eng": "today, nowadays",
+      "ex": [
+        "ayer estuvo aquí; hoy puede estar allá",
+        "yesterday he was here; today he might be there"
       ]
     },
     {
       "category": 2,
       "id": 1,
-      "eng": "dog",
       "spa": "perro",
+      "eng": "dog",
       "ex": []
     },
     {
       "category": 2,
       "id": 2,
-      "eng": "horse",
       "spa": "caballo",
+      "eng": "horse",
       "ex": []
     },
     {
       "category": 2,
       "id": 3,
+      "spa": "pájaro",
       "eng": "bird",
-      "spa": "pajaro",
       "ex": []
     },
     {
       "category": 2,
       "id": 4,
-      "eng": "cat",
       "spa": "gato",
+      "eng": "cat",
       "ex": []
     },
     {
       "category": 2,
       "id": 5,
-      "eng": "bird",
       "spa": "ave",
+      "eng": "bird",
       "ex": []
     },
     {
       "category": 2,
       "id": 6,
+      "spa": "león",
       "eng": "lion",
-      "spa": "leon",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 7,
+      "spa": "toro",
+      "eng": "bull",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 8,
+      "spa": "vaca",
+      "eng": "cow",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 9,
+      "spa": "insecto",
+      "eng": "insect",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 10,
+      "spa": "gallo",
+      "eng": "rooster",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 11,
+      "spa": "gallina",
+      "eng": "hen",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 12,
+      "spa": "paloma",
+      "eng": "dove",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 13,
+      "spa": "mariposa",
+      "eng": "butterfly",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 14,
+      "spa": "ratón",
+      "eng": "mouse",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 15,
+      "spa": "mosca",
+      "eng": "fly",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 16,
+      "spa": "pollo",
+      "eng": "chicken",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 17,
+      "spa": "rata",
+      "eng": "rata",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 18,
+      "spa": "pez",
+      "eng": "fish",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 19,
+      "spa": "serpiente",
+      "eng": "snake",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 20,
+      "spa": "cerdo",
+      "eng": "pig",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 21,
+      "spa": "tigre",
+      "eng": "tiger",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 22,
+      "spa": "lobo",
+      "eng": "wolf",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 23,
+      "spa": "mono",
+      "eng": "monkey",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 24,
+      "spa": "oveja",
+      "eng": "sheep",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 25,
+      "spa": "gusano",
+      "eng": "worm",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 26,
+      "spa": "araña",
+      "eng": "spider",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 27,
+      "spa": "oso",
+      "eng": "bear",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 28,
+      "spa": "hormiga",
+      "eng": "ant",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 29,
+      "spa": "burro",
+      "eng": "donkey",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 30,
+      "spa": "conejo",
+      "eng": "rabbit",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 31,
+      "spa": "buey",
+      "eng": "ox",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 32,
+      "spa": "pato",
+      "eng": "duck",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 33,
+      "spa": "elefante",
+      "eng": "elephant",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 34,
+      "spa": "águila",
+      "eng": "eagle",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 35,
+      "spa": "tortuga",
+      "eng": "turtle",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 36,
+      "spa": "abeja",
+      "eng": "bee",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 37,
+      "spa": "sapo",
+      "eng": "toad",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 38,
+      "spa": "cabra",
+      "eng": "goat",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 39,
+      "spa": "mosquito",
+      "eng": "mosquito",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 40,
+      "spa": "rana",
+      "eng": "frog",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 41,
+      "spa": "pajjarito",
+      "eng": "little bird",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 42,
+      "spa": "vibor",
+      "eng": "viper",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 43,
+      "spa": "zorro",
+      "eng": "fox",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 44,
+      "spa": "ballena",
+      "eng": "whale",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 45,
+      "spa": "grillo",
+      "eng": "cricket",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 46,
+      "spa": "cuervo",
+      "eng": "raven",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 47,
+      "spa": "murciélago",
+      "eng": "bat",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 48,
+      "spa": "cisne",
+      "eng": "swan",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 49,
+      "spa": "genado",
+      "eng": "livestock",
+      "ex": []
+    },
+    {
+      "category": 2,
+      "id": 50,
+      "spa": "gaviota",
+      "eng": "seagull",
+      "ex": []
+    },
+    {
+      "category": 1,
+      "id": 168,
+      "spa": "tipo",
+      "eng": "type, kind",
+      "ex": [
+        "reconozco tu oposición a este tipo de ideología",
+        "I recognize your opposition to this type of ideology"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 169,
+      "spa": "ojo",
+      "eng": "eye",
+      "ex": [
+        "los grandes ojos verdes la miraban con ternura",
+        "The big green eyes looked at her tenderly"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 170,
+      "spa": "manera",
+      "eng": "way,manner",
+      "ex": [
+        "lo hizo de manera muy informal",
+        "He did it very informally"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 171,
+      "spa": "importante",
+      "eng": "important",
+      "ex": [
+        "el momento más importante de la ceremonia",
+        "The most important moment of the ceremony"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 172,
+      "spa": "contar",
+      "eng": "to tell, count",
+      "ex": [
+        "me contó una larga y estúpida historia",
+        "He told me a long and stupid story"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 173,
+      "spa": "niño",
+      "eng": "child, little boy",
+      "ex": [
+        "he tenido suerte desde que era niño",
+        "I've been lucky since I was a child"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 174,
+      "spa": "trabajar",
+      "eng": "to work",
+      "ex": [
+        "comenzaban a trabajar de camareros",
+        "They started working as waiters"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 175,
+      "spa": "empezar",
+      "eng": "to begin, start",
+      "ex": [
+        "lentamente su auto empieza a avanzar",
+        "slowly your car begins to advance"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 176,
+      "spa": "verdad",
+      "eng": "truth",
+      "ex": [
+        "diga la verdad!",
+        "Tell the truth!"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 177,
+      "spa": "contra",
+      "eng": "against, opposite",
+      "ex": [
+        "hermanos contra hermanos y padres contra hijos",
+        "brothers against brothers and parents against children"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 178,
+      "spa": "ciudad",
+      "eng": "city",
+      "ex": [
+        "quieren estar en la ciudad y no salir al campo",
+        "They want to be in the city and not go out to the countryside"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 179,
+      "spa": "buscar",
+      "eng": "to look for",
+      "ex": [
+        "decidí volver a la calle y buscar un empleo",
+        "I decided to return to the street and look for a job"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 180,
+      "spa": "ahi",
+      "eng": "there",
+      "ex": [
+        "debe estar por ahí",
+        "It must be around"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 181,
+      "spa": "solo",
+      "eng": "lonely, alone",
+      "ex": [
+        "se sentía solo, espantosamente solo",
+        "He felt alone, frightening alone"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 182,
+      "spa": "fin",
+      "eng": "end, in order to",
+      "ex": [
+        "puse fin a la discusión",
+        "I end the discussion"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 183,
+      "spa": "propio",
+      "eng": "own, proper, typical",
+      "ex": [
+        "le doy dinero de mi propio bolsillo",
+        "I give you money from my own pocket"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 184,
+      "spa": "tú",
+      "eng": "you",
+      "ex": [
+        "ella es más alta que tú",
+        "She is higher than you"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 185,
+      "spa": "gobierno",
+      "eng": "goverment",
+      "ex": [
+        "el feudalismo fue la forma de gobierno",
+        "Feudalism was the form of government"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 186,
+      "spa": "historia",
+      "eng": "history, story",
+      "ex": [
+        "aquello ya pasó a la historia",
+        "That has already happened in history"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 187,
+      "spa": "ejemplo",
+      "eng": "example",
+      "ex": [
+        "no des mal ejemplo a los niños",
+        "Do not give a bad example to children"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 188,
+      "spa": "último",
+      "eng": "last, final",
+      "ex": [
+        "se opuso al viaje hasta el último momento",
+        "He opposed the trip to the last moment"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 189,
+      "spa": "punto",
+      "eng": "point, dot, period",
+      "ex": [
+        "este punto de vista es mejor",
+        "This point of view is better"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 190,
+      "spa": "antes",
+      "eng": "before",
+      "ex": [
+        "quería verla antes de salir",
+        "I wanted to see her before leaving"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 191,
+      "spa": "mil",
+      "eng": "thousand",
+      "ex": [
+        "unos mil años han pasado desde entonces",
+        "About a thousand years have passed since then"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 192,
+      "spa": "palabra",
+      "eng": "word",
+      "ex": [
+        "jamás dijo una palabra en inglés",
+        "He never said a word in English"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 193,
+      "spa": "obra",
+      "eng": "work, book, deed",
+      "ex": [
+        "la primera obra literaria de Dante fue La Vida Nueva",
+        "Dante's first literary work was the new life"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 194,
+      "spa": "existir",
+      "eng": "to exist",
+      "ex": [
+        "¿Puede existir alguien que sea perfecto?",
+        "Can someone exist perfect?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 195,
+      "spa": "perder",
+      "eng": "to lose, miss",
+      "ex": [
+        "quiere perder diez libras antes de la boda",
+        "wants to lose ten pounds before the wedding"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 196,
+      "spa": "cuenta",
+      "eng": "bill, account",
+      "ex": [
+        "sería bueno sacar la cuenta y calcular gastos",
+        "It would be good to get the account and calculate expenses"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 197,
+      "spa": "allí",
+      "eng": "there, over there",
+      "ex": [
+        "allí están, junto a la playa",
+        "There are, next to the beach"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 198,
+      "spa": "escribir",
+      "eng": "to write",
+      "ex": [
+        "mi padre escribe unas cartas cortas",
+        "My father writes short cards"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 199,
+      "spa": "cualquiera",
+      "eng": "any, anyone",
+      "ex": [
+        "son patrocinadas con lo que cualquiera puede donar",
+        "They are sponsored with what anyone can donate"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 200,
+      "spa": "grupo",
+      "eng": "group",
+      "ex": [
+        "¿Cuál será su papel en ese grupo de trabajo?",
+        "What will be your role in that working group?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 201,
+      "spa": "señor",
+      "eng": "sir, Mr",
+      "ex": [
+        "Puedo pagar con dólares? Si señor",
+        "Can I pay with dollars? Yes sir"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 202,
+      "spa": "pequeño",
+      "eng": "little, small, young",
+      "ex": [
+        "a pesar de su pequeño tamaño, estaba llena de detalles",
+        "Despite its small size, it was full of details"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 203,
+      "spa": "embargo",
+      "eng": "nevertheless",
+      "ex": [
+        "sin embargo, es uno de mis mejores amigos",
+        "However, it is one of my best friends"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 204,
+      "spa": "agua",
+      "eng": "water",
+      "ex": [
+        "Déme un vaso de agua; que tengo mucha sed",
+        "Give me a glass of water; What is very thirst"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 205,
+      "spa": "realizar",
+      "eng": "to fulfill, carry out",
+      "ex": [
+        "el viaje se realizó en noviembre",
+        "The trip was made in November"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 206,
+      "spa": "nadie",
+      "eng": "nobody, anybody",
+      "ex": [
+        "nadie sabe nada",
+        "No one knows anything"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 207,
+      "spa": "entrar",
+      "eng": "to enter",
+      "ex": [
+        "¡Este maldito no puede entrar en nuestra casa!",
+        "This damn cannot enter our house!"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 208,
+      "spa": "arte",
+      "eng": "art, skill",
+      "ex": [
+        "la creación de un museo de arte moderno y contemporáneo",
+        "The creation of a Museum of Modern and Contemporary Art"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 209,
+      "spa": "leer",
+      "eng": "to read",
+      "ex": [
+        "prefiero leer a los autores de moda",
+        "I prefer to read the fashion authors"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 210,
+      "spa": "amigo",
+      "eng": "friend",
+      "ex": [
+        "¿No tienes un amigo a quien me podrías presentar?",
+        "Don't you have a friend who could you present me?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 211,
+      "spa": "recordar",
+      "eng": "to remember, remind",
+      "ex": [
+        "prefiero no recordar esa época de mi vida",
+        "I prefer not to remember that time of my life"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 212,
+      "spa": "morir",
+      "eng": "to die",
+      "ex": [
+        "los pobres murieron de pulmonía meses después",
+        "The poor died of pneumony months later"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 213,
+      "spa": "único",
+      "eng": "only, unique, sole",
+      "ex": [
+        "era el único hijo varón de la familia",
+        "He was the only male son of the family"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 214,
+      "spa": "lado",
+      "eng": "side",
+      "ex": [
+        "está situada al lado derecho",
+        "is located on the right side"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 215,
+      "spa": "nombre",
+      "eng": "name",
+      "ex": [
+        "Susana no es mi nombre verdadero",
+        "Susana is not my true name"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 216,
+      "spa": "recibir",
+      "eng": "to receive",
+      "ex": [
+        "Pavlov recibe el Premio Nobel por sus estudios",
+        "Pavlov receives the Nobel Prize for his studies"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 217,
+      "spa": "pedir",
+      "eng": "to ask for, request",
+      "ex": [
+        "me atreví a pedirle que bailara con migo",
+        "I dared to ask him to dance with me"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 218,
+      "spa": "permitir",
+      "eng": "to allow, permit",
+      "ex": [
+        "no se me permitió jugar allí por varios días",
+        "I was not allowed to play there for several days"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 219,
+      "spa": "preguntar",
+      "eng": "to ask",
+      "ex": [
+        "les voy a preguntar si quieren comer",
+        "I'm going to ask you if you want to eat"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 220,
+      "spa": "social",
+      "eng": "social",
+      "ex": [
+        "no me gusta la vida social, no voy a ninguna fiesta",
+        "I don't like social life, I don't go to any party"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 221,
+      "spa": "sistema",
+      "eng": "system",
+      "ex": [
+        "el corazón es parte del sistema circulatorio",
+        "The heart is part of the circulatory system"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 222,
+      "spa": "tal",
+      "eng": "such",
+      "ex": [
+        "bien sabía que tal cosa era imposible",
+        "well knew how such a thing was impossible"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 223,
+      "spa": "segundo",
+      "eng": "second",
+      "ex": [
+        "espérame un segundo",
+        "wait me a second"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 224,
+      "spa": "antes",
+      "eng": "before, in the presence of",
+      "ex": [
+        "no sé qué hacer y cómo actuar ante estas circunstancias",
+        "I don't know what to do and how to act in these circumstances"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 225,
+      "spa": "viejo",
+      "eng": "old, aged",
+      "ex": [
+        "el hombre viejo tiene como ochenta años, y está loco",
+        "The old man is about eighty, and is crazy"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 226,
+      "spa": "madre",
+      "eng": "mother",
+      "ex": [
+        "ahora está casada y es madre de familia",
+        "Now she is married and she is a family mother"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 227,
+      "spa": "siglo",
+      "eng": "century, age",
+      "ex": [
+        "los poetas más populares del siglo 20",
+        "The most popular poets of the 20th century"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 228,
+      "spa": "nacional",
+      "eng": "national",
+      "ex": [
+        "le dieron el premio nacional de poesía",
+        "They gave him the National Poetry Award"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 229,
+      "spa": "entender",
+      "eng": "to understand",
+      "ex": [
+        "todavía no entiendo demasiado bien lo que pasó",
+        "I still don't understand what happened"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 230,
+      "spa": "libro",
+      "eng": "book",
+      "ex": [
+        "¿Está usted escribiendo un libro sobre la política?",
+        "Are you writing a book about politics?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 231,
+      "spa": "alto",
+      "eng": "tall, high",
+      "ex": [
+        "estás tan alto como yo",
+        "You are as high as me"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 232,
+      "spa": "cuerpo",
+      "eng": "body",
+      "ex": [
+        "el cuerpo humano se compone de millones de células",
+        "The human body consists of millions of cells"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 233,
+      "spa": "familia",
+      "eng": "family",
+      "ex": [
+        "la familia es la unidad social más significativa",
+        "The family is the most significant social unit"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 234,
+      "spa": "comenzar",
+      "eng": "to begin, start",
+      "ex": [
+        "a los veintidós años comenzó a aprender castellaño",
+        "At twenty -two years he began to learn Castellaño"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 235,
+      "spa": "presentar",
+      "eng": "to introduce, present",
+      "ex": [
+        "Mi madre me presentó a mi futuro esposo",
+        "My mother introduced me to my future husband"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 236,
+      "spa": "bajo",
+      "eng": "under, underneath",
+      "ex": [
+        "encontraron las sepulturas bajo tierra",
+        "They found the burial underground"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 237,
+      "spa": "segundo",
+      "eng": "according to",
+      "ex": [
+        "Según su experiencia, ésa era la pista correcta",
+        "According to your experience, that was the right track"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 238,
+      "spa": "frente",
+      "eng": "front",
+      "ex": [
+        "si uno situa un espejo frente a otro, crea un portal infinito",
+        "If one places a mirror in front of another, creates an infinite portal"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 239,
+      "spa": "crear",
+      "eng": "to create",
+      "ex": [
+        "su actitud crea muchos problemas",
+        "His attitude creates many problems"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 240,
+      "spa": "tema",
+      "eng": "theme, subject, topic",
+      "ex": [
+        "es un tema delicado",
+        "is a delicate topic"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 241,
+      "spa": "cuatro",
+      "eng": "four",
+      "ex": [
+        "tienen cuatro patas y cuernos",
+        "They have four legs and horns"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 242,
+      "spa": "ah",
+      "eng": "oh",
+      "ex": [
+        "Ah, bueno . . . ¿Ya movieron los materiales?",
+        "Oh ok . . . Have the materials moved?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 243,
+      "spa": "humano",
+      "eng": "human",
+      "ex": [
+        "El sistema nervioso humano tiene sistemas neurales complejos",
+        "The human nervous system has complex neural systems"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 244,
+      "spa": "pueblo",
+      "eng": "people, village",
+      "ex": [
+        "el libro no representa al pueblo portugués",
+        "The book does not represent the Portuguese people"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 245,
+      "spa": "producir",
+      "eng": "to produce, cause",
+      "ex": [
+        "tus acciones me producen tristeza",
+        "Your actions give me sadness"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 246,
+      "spa": "abrir",
+      "eng": "to open",
+      "ex": [
+        "Abre la ventana. Hace calor",
+        "Open the window. It's hot"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 247,
+      "spa": "idea",
+      "eng": "idea",
+      "ex": [
+        "no podemos renunciar a la idea de la igualdad",
+        "We cannot give up the idea of ​​equality"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 248,
+      "spa": "millión",
+      "eng": "million, fortune",
+      "ex": [
+        "le ha proporcionado un cheque de un millón de pesetas",
+        "It has provided a check of one million pesetas"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 249,
+      "spa": "sentar",
+      "eng": "to sit (down), seat",
+      "ex": [
+        "los niños pasaban a sentarse en sus escritorios",
+        "The children sat in their desks"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 250,
+      "spa": "aún",
+      "eng": "still, yet",
+      "ex": [
+        "ni aún así me quedaría",
+        "I wouldn't even stay"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 251,
+      "spa": "caer",
+      "eng": "to fall",
+      "ex": [
+        "no quiero caer en mi tumba siendo joven",
+        "I don't want to fall into my grave being young"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 252,
+      "spa": "voz",
+      "eng": "voice",
+      "ex": [
+        "un hombre de voz vibrante y rica empezó a cantar",
+        "A man with a vibrant and rich voice began to sing"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 253,
+      "spa": "terminar",
+      "eng": "to finish, end",
+      "ex": [
+        "cuelga sin terminar la conversación",
+        "Hang the conversation without finishing"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 254,
+      "spa": "oír",
+      "eng": "to hear",
+      "ex": [
+        "no se oía ningún sonido",
+        "no sound could be heard"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 255,
+      "spa": "cambiar",
+      "eng": "to change",
+      "ex": [
+        "no van a cambiar la disposición de invitados",
+        "They will not change the disposition of guests"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 256,
+      "spa": "ninguno",
+      "eng": "no, none, nobody",
+      "ex": [
+        "No tengo ningún lugar adonde ir",
+        "I have no place to go"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 257,
+      "spa": "considerar",
+      "eng": "to consider",
+      "ex": [
+        "no podía considerar la primera hipótesis con seriedad",
+        "I could not consider the first hypothesis seriously"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 258,
+      "spa": "politico",
+      "eng": "political",
+      "ex": [
+        "la acción política debe respaldarse en la económica",
+        "Political action must be supported in the economic"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 259,
+      "spa": "tierra",
+      "eng": "earth, land, ground",
+      "ex": [
+        "la tierra aquí es oscura y rica",
+        "The earth here is dark and rich"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 260,
+      "spa": "realidad",
+      "eng": "reality, actuality",
+      "ex": [
+        "le habló a Rosabel, que en realidad se llamaba María",
+        "He spoke to Rosabel, who was actually called Maria"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 261,
+      "spa": "convertir",
+      "eng": "to convert, change, become",
+      "ex": [
+        "el café llegó a convertirse en la bebida más popular de Cuba",
+        "Coffee became the most popular drink in Cuba"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 262,
+      "spa": "español",
+      "eng": "Spanish",
+      "ex": [
+        "la lengua española de hoy es el castellano",
+        "Today's Spanish language is Spanish"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 263,
+      "spa": "igual",
+      "eng": "equal, same",
+      "ex": [
+        "los indios son seres humanos iguales que nosotros",
+        "Indians are equal human beings than us"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 264,
+      "spa": "todavia",
+      "eng": "still, yet",
+      "ex": [
+        "los animales todavía están vivos",
+        "Animals are still alive"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 265,
+      "spa": "cabeza",
+      "eng": "head (body)",
+      "ex": [
+        "planteaba muchas preguntas en mi cabeza",
+        "I raised many questions in my head"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 266,
+      "spa": "derecho",
+      "eng": "right, justice, law",
+      "ex": [
+        "Tengo derecho a opinar",
+        "I have the right to comment"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 267,
+      "spa": "mantener",
+      "eng": "to keep, maintain",
+      "ex": [
+        "Luis cruzó los brazos y se mantuvo sereno",
+        "Luis crossed his arms and remained serene"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 268,
+      "spa": "ultilizar",
+      "eng": "to use, utilize",
+      "ex": [
+        "sería una buena idea utilizar colores pálidos",
+        "It would be a good idea to use pale colors"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 269,
+      "spa": "calle",
+      "eng": "street",
+      "ex": [
+        "llegó a la esquina de la calle La Merced y La Esperanza",
+        "He arrived at the corner of La Merced and La Esperanza Street"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 270,
+      "spa": "través",
+      "eng": "through, across",
+      "ex": [
+        "se enteró a través de un amigo",
+        "He learned through a friend"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 271,
+      "spa": "estado",
+      "eng": "state, condition, status",
+      "ex": [
+        "hay un estado de incertidumbre que flota en el ambiente",
+        "There is a state of uncertainty that floats in the environment"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 272,
+      "spa": "relación",
+      "eng": "relationship, relation",
+      "ex": [
+        "he tenido una relación muy estrecha con los compositores",
+        "I have had a very close relationship with the composers"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 273,
+      "spa": "sacar",
+      "eng": "to take out",
+      "ex": [
+        "sacó un bolígrafo de su bolso y firmó el cheque",
+        "He took a pen from his bag and signed the check"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 274,
+      "spa": "puerta",
+      "eng": "door",
+      "ex": [
+        "Por dónde estará la puerta de salida?",
+        "Where will the exit door be?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 275,
+      "spa": "gracias",
+      "eng": "thanks, thank you",
+      "ex": [
+        "Doy gracias a Dios por haberme permitido alcanzar mi objetivo",
+        "I thank God for having allowed me to achieve my goal"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 276,
+      "spa": "necesitar",
+      "eng": "to need",
+      "ex": [
+        "vas a necesitar un trabajo nuevo",
+        "You will need a new job"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 277,
+      "spa": "resultar",
+      "eng": "to result, turn out",
+      "ex": [
+        "el viaje resultó perfecto",
+        "The trip was perfect"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 278,
+      "spa": "luz",
+      "eng": "light",
+      "ex": [
+        "desaparece la luz hasta el oscuro",
+        "The light disappears to the dark"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 279,
+      "spa": "paso",
+      "eng": "step, pace",
+      "ex": [
+        "di dos pasos adelante y uno hacia atrás",
+        "Take two steps forward and one backwards"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 280,
+      "spa": "general",
+      "eng": "general",
+      "ex": [
+        "se realiza en el pabellón de operaciones, bajo anestesia general",
+        "It is performed in the Operations Pavilion, under general anesthesia"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 281,
+      "spa": "escuchar",
+      "eng": "to listen to",
+      "ex": [
+        "tuvo oportunidad de escuchar comentarios de viajeros",
+        "He had the opportunity to listen to travelers comments"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 282,
+      "spa": "guerra",
+      "eng": "war, warfare",
+      "ex": [
+        "qué pronto se olvida a las víctimas de una guerra",
+        "How soon the victims of a war are forgotten"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 283,
+      "spa": "amor",
+      "eng": "love",
+      "ex": [
+        "¡Tengo el amor más grande del mundo!",
+        "I have the greatest love in the world!"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 284,
+      "spa": "cinco",
+      "eng": "five",
+      "ex": [
+        "mi hija solamente tiene cinco años",
+        "My daughter is only five years old"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 285,
+      "spa": "situación",
+      "eng": "situation",
+      "ex": [
+        "¿Cómo es la situación allí actualmente?",
+        "How is the situation there today?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 286,
+      "spa": "conseguir",
+      "eng": "to get, acquire, obtain",
+      "ex": [
+        "· te puedo conseguir su número – I can get you her phone number",
+        "· I can get your number - i can get you her pHONE NUMBER"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 287,
+      "spa": "lograr",
+      "eng": "to achieve, get, manage",
+      "ex": [
+        "un director no puede lograr buenos resultados sin ayuda",
+        "A director cannot achieve good results without help"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 288,
+      "spa": "mes",
+      "eng": "month",
+      "ex": [
+        "la boda tendrá lugar el próximo mes de noviembre",
+        "The wedding will take place next November"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 289,
+      "spa": "quién",
+      "eng": "who?, whom?",
+      "ex": [
+        "¿Quién es el padre de su hijo?",
+        "Who is the father of his son?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 290,
+      "spa": "fuerza",
+      "eng": "strength, force, power",
+      "ex": [
+        "necesitaba recuperar fuerzas",
+        "I needed to regain strength"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 291,
+      "spa": "ocurrir",
+      "eng": "to happen, occur",
+      "ex": [
+        "el miedo a lo que pudiera ocurrir me inmovilizó",
+        "The fear of what could happen immobilized me"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 292,
+      "spa": "aparecer",
+      "eng": "to appear",
+      "ex": [
+        "detrás suyo, Teresa apareció por la puerta de la cocina",
+        "Behind him, Teresa appeared through the kitchen door"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 293,
+      "spa": "diferente",
+      "eng": "different, separate",
+      "ex": [
+        "en un entorno urbano el reto, en cambio, es diferente",
+        "In an urban environment the challenge, on the other hand, is different"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 294,
+      "spa": "muerte",
+      "eng": "death",
+      "ex": [
+        "sólo la muerte no tiene",
+        "Only death does not have"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 295,
+      "spa": "ganar",
+      "eng": "to win, earn",
+      "ex": [
+        "después de diez años ganó el Premio Nobel",
+        "After ten years he won the Nobel Prize"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 296,
+      "spa": "estudio",
+      "eng": "study, learning",
+      "ex": [
+        "he colaborado en un estudio de psicología descriptiva",
+        "I have collaborated in a descriptive psychology study"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 297,
+      "spa": "nivel",
+      "eng": "level",
+      "ex": [
+        "el nivel del mar empezaba a aumentar",
+        "The sea level began to increase"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 298,
+      "spa": "proceso",
+      "eng": "process, procedure",
+      "ex": [
+        "el proceso electoral fue justo",
+        "The electoral process was fair"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 299,
+      "spa": "fuera",
+      "eng": "out, outside, away",
+      "ex": [
+        "hace como diez años que vivo fuera del Paraguay",
+        "I have lived out of Paraguay about ten years"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 300,
+      "spa": "largo",
+      "eng": "long",
+      "ex": [
+        "Salgo de pronto a un largo viaje",
+        "I suddenly go on a long trip"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 301,
+      "spa": "semana",
+      "eng": "week",
+      "ex": [
+        "no todos los días, pero varios días de la semana",
+        "Not every day, but several days of the week"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 302,
+      "spa": "partido",
+      "eng": "party, group, match (sport)",
+      "ex": [
+        "fue consejero de un candidato del partido conservador",
+        "He was a advisor to a candidate of the Conservative Party"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 303,
+      "spa": "acabar",
+      "eng": "to have just, finish",
+      "ex": [
+        "la película acabó bien",
+        "The movie ended well"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 304,
+      "spa": "explicar",
+      "eng": "to explain",
+      "ex": [
+        "¿Podría explicar los detalles de este análisis?",
+        "Could you explain the details of this analysis?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 305,
+      "spa": "cuyo",
+      "eng": "whose",
+      "ex": [
+        "tengo un amigo cuyo niño asiste a esa escuela",
+        "I have a friend whose child attends that school"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 306,
+      "spa": "razón",
+      "eng": "reasoon, to be right",
+      "ex": [
+        "se quejan sin razón",
+        "complain without reason"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 307,
+      "spa": "negro",
+      "eng": "black",
+      "ex": [
+        "Hay un agujero negro en la galaxia M87",
+        "There is a black hole in the M87 galaxy"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 308,
+      "spa": "bastante",
+      "eng": "rather, fairly, quite a bit",
+      "ex": [
+        "estoy bastante satisfecho con mi vida",
+        "I am quite satisfied with my life"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 309,
+      "spa": "efecto",
+      "eng": "effect",
+      "ex": [
+        "para estudiar el efecto del Sol sobre la emisión de rayos X",
+        "To study the effect of the sun on X -ray emission"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 310,
+      "spa": "servicio",
+      "eng": "service, helpfulness",
+      "ex": [
+        "es un servicio público que beneficia al individuo",
+        "It is a public service that benefits the individual"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 311,
+      "spa": "formar",
+      "eng": "to form",
+      "ex": [
+        "salieron para formar sus propios grupos",
+        "They left to form their own groups"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 312,
+      "spa": "económico",
+      "eng": "economic",
+      "ex": [
+        "es necesario tener progreso económico",
+        "It is necessary to have economic progress"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 313,
+      "spa": "servir",
+      "eng": "to serve",
+      "ex": [
+        "destapa la botella y sirve unas copas",
+        "uncover the bottle and serve drinks"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 314,
+      "spa": "allá",
+      "eng": "there, over there",
+      "ex": [
+        "miren allá, cerca de la fuente",
+        "Look there, near the fountain"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 315,
+      "spa": "empresa",
+      "eng": "firm, company, venture",
+      "ex": [
+        "operaba con una empresa constructora del Reino Unido",
+        "operated with a United Kingdom construction company"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 316,
+      "spa": "centro",
+      "eng": "center, middle, downtown",
+      "ex": [
+        "no necesitan estar solos en el centro del escenario",
+        "They do not need to be alone in the center of the stage"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 317,
+      "spa": "usar",
+      "eng": "to use",
+      "ex": [
+        "mi teléfono no funciona y quisiera usar el tuyo",
+        "My phone doesn't work and I would like to use yours"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 318,
+      "spa": "tras",
+      "eng": "after, behind",
+      "ex": [
+        "había retornado a su tierra tras años de lucha",
+        "had returned to his land after years of struggle"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 319,
+      "spa": "cambio",
+      "eng": "change, instead",
+      "ex": [
+        "podría requerir un cambio de actitud",
+        "It may require a change in attitude"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 320,
+      "spa": "clase",
+      "eng": "kind, class, order",
+      "ex": [
+        "¿Qué otra clase de música le interesa?",
+        "What other kind of music is interested in?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 321,
+      "spa": "distinto",
+      "eng": "distinct, different",
+      "ex": [
+        "abrirían las puertas a un futuro distinto para mí",
+        "They would open the doors to a different future for me"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 322,
+      "spa": "animal",
+      "eng": "animal",
+      "ex": [
+        "En la selva, el león es el rey de todos los animales",
+        "In the jungle, the lion is the king of all animals"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 323,
+      "spa": "hecho",
+      "eng": "fact, happening",
+      "ex": [
+        "le gustó el hecho de que yo estuviese allí",
+        "He liked the fact that I was there"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 324,
+      "spa": "número",
+      "eng": "number",
+      "ex": [
+        "ella escribía su número telefónico en un papelito",
+        "She wrote her phone number on a piece of paper"
+      ]
+    },
+    {
+      "category": 3,
+      "id": 1,
+      "spa": "mano",
+      "eng": "hand",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 2,
+      "spa": "ojo",
+      "eng": "eye",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 3,
+      "spa": "cabeza",
+      "eng": "head",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 4,
+      "spa": "cara",
+      "eng": "face",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 5,
+      "spa": "pie",
+      "eng": "foot",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 6,
+      "spa": "boca",
+      "eng": "mouth",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 7,
+      "spa": "brazo",
+      "eng": "arm",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 8,
+      "spa": "corazon",
+      "eng": "heart",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 9,
+      "spa": "sangre",
+      "eng": "blood",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 10,
+      "spa": "lengua",
+      "eng": "language",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 11,
+      "spa": "dedo",
+      "eng": "finger, toe",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 12,
+      "spa": "pelo",
+      "eng": "hair",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 13,
+      "spa": "espalda",
+      "eng": "back",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 14,
+      "spa": "pecho",
+      "eng": "chest",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 15,
+      "spa": "labio",
+      "eng": "lip",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 16,
+      "spa": "hombro",
+      "eng": "shoulder",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 17,
+      "spa": "cuello",
+      "eng": "neck",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 18,
+      "spa": "diente",
+      "eng": "tooth",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 19,
+      "spa": "cabello",
+      "eng": "hair",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 20,
+      "spa": "nariz",
+      "eng": "nose",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 21,
+      "spa": "cerebro",
+      "eng": "brain",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 22,
+      "spa": "hueso",
+      "eng": "bone",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 23,
+      "spa": "rodilla",
+      "eng": "knee",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 24,
+      "spa": "oreja",
+      "eng": "ear",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 25,
+      "spa": "estómago",
+      "eng": "stomach",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 26,
+      "spa": "vientre",
+      "eng": "belly",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 27,
+      "spa": "seno",
+      "eng": "breast",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 28,
+      "spa": "garganta",
+      "eng": "throat",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 29,
+      "spa": "mejilla",
+      "eng": "cheek",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 30,
+      "spa": "uña",
+      "eng": "nail",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 31,
+      "spa": "músculo",
+      "eng": "muscle",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 32,
+      "spa": "cintura",
+      "eng": "waist",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 33,
+      "spa": "barba",
+      "eng": "beard",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 34,
+      "spa": "nervio",
+      "eng": "nerve",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 35,
+      "spa": "puño",
+      "eng": "fist",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 36,
+      "spa": "pulmon",
+      "eng": "lung",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 37,
+      "spa": "muslo",
+      "eng": "thigh",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 38,
+      "spa": "vena",
+      "eng": "vein",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 39,
+      "spa": "cadera",
+      "eng": "hip",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 40,
+      "spa": "ceja",
+      "eng": "eyebrow",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 41,
+      "spa": "bigote",
+      "eng": "moustache",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 42,
+      "spa": "pupila",
+      "eng": "pupil",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 43,
+      "spa": "entrañas",
+      "eng": "bowels",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 44,
+      "spa": "cráneo",
+      "eng": "skull",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 45,
+      "spa": "codo",
+      "eng": "elbow",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 46,
+      "spa": "higado",
+      "eng": "liver",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 47,
+      "spa": "nalga",
+      "eng": "buttock",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 48,
+      "spa": "pestana",
+      "eng": "tab",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 49,
+      "spa": "riñon",
+      "eng": "kidney",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 50,
+      "spa": "esqueleto",
+      "eng": "skeleton",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 51,
+      "spa": "tobillo",
+      "eng": "ankle",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 52,
+      "spa": "mandibula",
+      "eng": "jaw",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 52,
+      "spa": "arteria",
+      "eng": "artery",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 52,
+      "spa": "inestino",
+      "eng": "Incestine",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 52,
+      "spa": "pulgar",
+      "eng": "thumb",
+      "ex": []
+    },
+    {
+      "category": 3,
+      "id": 52,
+      "spa": "retina",
+      "eng": "retina",
+      "ex": []
+    },
+    {
+      "category": 1,
+      "id": 325,
+      "spa": "dicho",
+      "eng": "aforementioned, said",
+      "ex": [
+        "Necesita organizar su espacio interno en función de dicho sistema",
+        "You need to organize your internal space depending on this system"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 326,
+      "spa": "informacion",
+      "eng": "information",
+      "ex": [
+        "trató de obtener información más precisa",
+        "tried to obtain more precise information"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 327,
+      "spa": "tocar",
+      "eng": "to touch, play (instrument)",
+      "ex": [
+        "se acercó hasta tocar su rodilla con la mía",
+        "He approached his knee with mine"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 328,
+      "spa": "ayudar",
+      "eng": "to help",
+      "ex": [
+        "espero ganar dinero para ayudar a mi pobre madre ",
+        "I hope to make money to help my poor mother"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 329,
+      "spa": "público",
+      "eng": "public",
+      "ex": [
+        "no se va a arrendar ni a parcelar el espacio público",
+        "You are not going to lease or plug the public space"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 330,
+      "spa": "mostrar",
+      "eng": "to show",
+      "ex": [
+        "con un dedo me mostró un agujerito negro",
+        "With a finger he showed me a black hole"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 331,
+      "spa": "mas",
+      "eng": "but, however",
+      "ex": [
+        "es posible mas lo dudo",
+        "It is possible more I doubt"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 332,
+      "spa": "estudiar",
+      "eng": "to study",
+      "ex": [
+        "Adam quiere estudiar teología y ser sacerdote",
+        "Adam wants to study theology and be a priest"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 333,
+      "spa": "hermano",
+      "eng": "brother, sibling",
+      "ex": [
+        "tengo tres hermanos y dos hermanas",
+        "I have three brothers and two sisters"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 334,
+      "spa": "ley",
+      "eng": "law, bill, rule",
+      "ex": [
+        "el casamiento civil es una ley de este país",
+        "Civil marriage is a law of this country"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 335,
+      "spa": "sentido",
+      "eng": "sense, feeling",
+      "ex": [
+        "es una cantante-actriz en el sentido actual del término",
+        "He is a singer-actress in the current sense of the term"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 336,
+      "spa": "incluso",
+      "eng": "including, even",
+      "ex": [
+        "Vamos! Incluso yo sabía",
+        "Let's go! I even knew"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 337,
+      "spa": "cara",
+      "eng": "face, expression",
+      "ex": [
+        "aparece la cara del hombre con su bigote",
+        "Man's face appears with his mustache"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 338,
+      "spa": "principio",
+      "eng": "beginning, principle",
+      "ex": [
+        "· tiene fiebre al principio de la enfermedad",
+        "It has a fever at the beginning of the disease"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 339,
+      "spa": "programa",
+      "eng": "program, plan",
+      "ex": [
+        "van a aprender mucho de este programa escolar",
+        "They will learn a lot from this school program"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 340,
+      "spa": "música",
+      "eng": "music",
+      "ex": [
+        "la gente se detenía siempre a escuchar la música que tocaban",
+        "People always stopped to listen to the music they played"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 341,
+      "spa": "traer",
+      "eng": "to bring, carry",
+      "ex": [
+        "sí, me trae un zumo de naranjas, por favor",
+        "Yes, it brings me an orange juice, please"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 342,
+      "spa": "campo",
+      "eng": "field, country",
+      "ex": [
+        "mi campo principal es la enfermedad coronaria",
+        "My main field is coronary heart disease"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 343,
+      "spa": "correr",
+      "eng": "to run",
+      "ex": [
+        "corre tres kilómetros y medio cada mañana",
+        "Run three and a half kilometers every morning"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 344,
+      "spa": "actividad",
+      "eng": "activity, action",
+      "ex": [
+        "pienso que el arte es una actividad mental",
+        "I think art is a mental activity"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 345,
+      "spa": "quizás",
+      "eng": "perhaps, maybe",
+      "ex": [
+        "quizás sí, pero de otra forma",
+        "Maybe yes, but otherwise"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 346,
+      "spa": "alguien",
+      "eng": "somebody, someone, anyone",
+      "ex": [
+        "alguien vino a preguntar por usted",
+        "Someone came to ask about you"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 347,
+      "spa": "comer",
+      "eng": "to eat",
+      "ex": [
+        "te comiste todo el queso",
+        "You ate all cheese"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 348,
+      "spa": "acuerdo",
+      "eng": "accord, in agreement",
+      "ex": [
+        "estoy de acuerdo con esa interpretación",
+        "I agree with that interpretation"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 349,
+      "spa": "demás",
+      "eng": "the rest, others",
+      "ex": [
+        "es la envidia de los demás estudiantes",
+        "It is the envy of the other students"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 350,
+      "spa": "siguiente",
+      "eng": "following, next",
+      "ex": [
+        "al día siguiente se levantó más decidido que nunca",
+        "The next day he got up more determined than ever"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 351,
+      "spa": "ofrecer",
+      "eng": "to offer, present",
+      "ex": [
+        "este hotel ofrece su menú en francés",
+        "This hotel offers its menu in French"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 352,
+      "spa": "poder",
+      "eng": "power",
+      "ex": [
+        "le dio el poder de manejar la economía mundial",
+        "He gave him the power to handle the world economy"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 353,
+      "spa": "sociedad",
+      "eng": "society",
+      "ex": [
+        "creaban una sociedad multicultural que vivía en paz",
+        "created a multicultural society that lived in peace"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 354,
+      "spa": "levantar",
+      "eng": "to raise, lift",
+      "ex": [
+        "de pronto se levantó y fue hasta su biblioteca",
+        "Suddenly he got up and went to his library"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 355,
+      "spa": "dios",
+      "eng": "god, divinity",
+      "ex": [
+        "ahora sé que hay un Dios en los cielos",
+        "Now I know there is a god in heaven"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 356,
+      "spa": "jugar",
+      "eng": "to play (sport/game)",
+      "ex": [
+        "¿Quieres jugar al fútbol esta tarde?",
+        "Do you want to play football this afternoon?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 357,
+      "spa": "época",
+      "eng": "time, age, period",
+      "ex": [
+        "en la época romana se utilizaba más el bronce",
+        "In Roman times, bronze was used more"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 358,
+      "spa": "color",
+      "eng": "color",
+      "ex": [
+        "los colores primarios son rojo, azul, y amarillo",
+        "The primary colors are red, blue, and yellow"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 359,
+      "spa": "zona",
+      "eng": "area, zone",
+      "ex": [
+        "conquistó la zona alemana de Samoa en agosto de 1914",
+        "conquered the German area of ​​Samoa in August 1914"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 360,
+      "spa": "malo",
+      "eng": "bad",
+      "ex": [
+        "éste se lamentó de su mala suerte",
+        "He lamented his bad luck"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 361,
+      "spa": "comprar",
+      "eng": "to buy",
+      "ex": [
+        "me iba a comprar un televisor",
+        "I was going to buy a TV"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 362,
+      "spa": "necesario",
+      "eng": "necessary",
+      "ex": [
+        "haré lo que sea necesario",
+        "I will do whatever necessary"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 363,
+      "spa": "camino",
+      "eng": "road, route, path",
+      "ex": [
+        "es un camino muy largo el que nos queda por recorrer",
+        "It is a very long path that we have to go"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 364,
+      "spa": "dinero",
+      "eng": "money",
+      "ex": [
+        "Hay mucho dinero. ¿Eres muy rico?",
+        "Much money. Are you very rich?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 365,
+      "spa": "pie",
+      "eng": "foot, base",
+      "ex": [
+        "está enfermo y tiene un pie en el cementerio",
+        "He is sick and has one foot in the cemetery"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 366,
+      "spa": "final",
+      "eng": "finally, in the end",
+      "ex": [
+        "al final, crecen y son más o menos iguales",
+        "In the end, they grow and are more or less equal"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 367,
+      "spa": "tampoco",
+      "eng": "neither, nor, either",
+      "ex": [
+        "a él no le gustó, ni a mí tampoco",
+        "He did not like me, neither"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 368,
+      "spa": "desarrollo",
+      "eng": "development",
+      "ex": [
+        "dicen que ya hay planes de desarrollo urbano ",
+        "They say there are already urban development plans"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 369,
+      "spa": "decidir",
+      "eng": "to decide",
+      "ex": [
+        "• ¿Cómo decidió usted ser director de orquesta? ",
+        "• How did you decide to be an orchestra director?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 370,
+      "spa": "movimiento",
+      "eng": "movement",
+      "ex": [
+        "estaba encabezando un movimiento de subversión",
+        "I was leading a subversion movement"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 371,
+      "spa": "alcanzar",
+      "eng": "to reach, catch up with",
+      "ex": [
+        "la economía tiene posibilidades de alcanzar la prosperidad",
+        "The economy has the possibility of achieving prosperity"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 372,
+      "spa": "blanco",
+      "eng": "white",
+      "ex": [
+        "esta foto es en blanco y negro",
+        "This photo is black and white"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 373,
+      "spa": "equipo",
+      "eng": "team, equipment, outfit",
+      "ex": [
+        "volvió a Madrid para formar un equipo de trabajo",
+        "He returned to Madrid to form a work team"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 374,
+      "spa": "dificil",
+      "eng": "difficult, hard",
+      "ex": [
+        "es duro, difícil tomar una decisión como ésta",
+        "It is hard, difficult to make a decision like this"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 375,
+      "spa": "desarrollar",
+      "eng": "to develop",
+      "ex": [
+        "tratando de desarrollar un nuevo sistema electrónico",
+        "Trying to develop a new electronic system"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 376,
+      "spa": "pronto",
+      "eng": "soon, quick",
+      "ex": [
+        "pronto lo tuvieron todo hecho",
+        "Soon they had everything done"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 377,
+      "spa": "pagar",
+      "eng": "to pay",
+      "ex": [
+        "estamos tratando de pagar esta deuda",
+        "We are trying to pay this debt"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 378,
+      "spa": "principal",
+      "eng": "main, principal",
+      "ex": [
+        "¿Cuál es el problema principal?",
+        "Which is the principal problem?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 379,
+      "spa": "proyecto",
+      "eng": "project, plan",
+      "ex": [
+        "esta última fase del proyecto no llegó a ser realizada",
+        "This last phase of the project was not carried out"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 380,
+      "spa": "valor",
+      "eng": "value, worth",
+      "ex": [
+        "hay que descubrir el valor artístico de la obra de arte",
+        "You have to discover the artistic value of the work of art"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 381,
+      "spa": "meter",
+      "eng": "to put (into)",
+      "ex": [
+        "metió a su niño en el carro",
+        "He put his child in the car"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 382,
+      "spa": "realmente",
+      "eng": "really, actually, in fact",
+      "ex": [
+        "¿Antes de nacer nosotros, existía realmente el mundo?",
+        "Before born, did the world really exist?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 383,
+      "spa": "sol",
+      "eng": "sun",
+      "ex": [
+        "se levanta antes del sol y no hay luz eléctrica",
+        "He gets up before the sun and there is no electric light"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 384,
+      "spa": "imagen",
+      "eng": "image, picture",
+      "ex": [
+        "es un intento evidente de dañar mi imagen pública",
+        "It is an obvious attempt to damage my public image"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 385,
+      "spa": "cunplir",
+      "eng": "to fulfill",
+      "ex": [
+        "necesito algo más para cumplir el trabajo",
+        "I need something else to fulfill the work"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 386,
+      "spa": "varios",
+      "eng": "several, various",
+      "ex": [
+        "está constituida por varios dialectos",
+        "It consists of several dialects"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 387,
+      "spa": "universidad",
+      "eng": "university, college",
+      "ex": [
+        "Alejandra asistía la Universidad de Georgia por cuatro años",
+        "Alejandra attended the University of Georgia for four years"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 388,
+      "spa": "interés",
+      "eng": "interest",
+      "ex": [
+        "pon más interés en tus estudios",
+        "Put more interest in your studies"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 389,
+      "spa": "mayoria",
+      "eng": "majority",
+      "ex": [
+        "la mayoría de los cánceres humanos no tienen un origen vírico",
+        "Most human cancers do not have a viral origin"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 390,
+      "spa": "dirigir",
+      "eng": "to direct, manage",
+      "ex": [
+        "usted dirigió la Orquesta Nacional en 1954",
+        "You directed the National Orchestra in 1954"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 391,
+      "spa": "ello",
+      "eng": "it/that",
+      "ex": [
+        "no hay que preocuparse por ello",
+        "Do not worry about it"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 392,
+      "spa": "tarde",
+      "eng": "afternoon, evening",
+      "ex": [
+        "a las 6 de la tarde ya es noche",
+        "At 6 in the afternoon it is night"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 393,
+      "spa": "papel",
+      "eng": "paper, role, part",
+      "ex": [
+        "el poco papel que tenemos lo dedicamos a libros",
+        "The little role we have dedicated to books"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 394,
+      "spa": "producto",
+      "eng": "product",
+      "ex": [
+        "el arte es, en parte, producto de su época",
+        "Art is, in part, the product of its time"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 395,
+      "spa": "medio",
+      "eng": "half, middle",
+      "ex": [
+        "todo lo deja a medio terminar",
+        "Everything leaves halfway"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 396,
+      "spa": "continuar",
+      "eng": "to continue",
+      "ex": [
+        "dio la orden para continuar la marcha",
+        "gave the order to continue the march"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 397,
+      "spa": "modo",
+      "eng": "way, manner, so that",
+      "ex": [
+        "hay diferencia entre el modo de hablar y el de escribir",
+        "There is a difference between the way of speaking and writing"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 398,
+      "spa": "rico",
+      "eng": "rich, tasty",
+      "ex": [
+        "no quiero ser rica; quiero ser famos",
+        "I don't want to be rich; I want to be famous"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 399,
+      "spa": "ojalá",
+      "eng": "hopefully",
+      "ex": [
+        "ojalá que así sea",
+        "I wish it so"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 400,
+      "spa": "reconocer",
+      "eng": "to recognize, admit",
+      "ex": [
+        "no pudo reconocer quién era",
+        "could not recognize who it was"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 401,
+      "spa": "aire",
+      "eng": "air, wind, appearance",
+      "ex": [
+        "el helicóptero puede estacionarse en el aire",
+        "The helicopter can be parked in the air"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 402,
+      "spa": "mañana",
+      "eng": "morning, tomorrow",
+      "ex": [
+        "en las primeras horas de la mañana",
+        "In the early hours of the morning"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 403,
+      "spa": "dormir",
+      "eng": "to sleep",
+      "ex": [
+        "esta cama es para dormir la siesta en verano",
+        "This bed is to sleep nap in summer"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 404,
+      "spa": "acción",
+      "eng": "action, act, deed",
+      "ex": [
+        "esta acción legal pretendía acelerar la liberalización económica",
+        "This legal action intended to accelerate economic liberalization"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 405,
+      "spa": "pesar",
+      "eng": "in spite of, despite",
+      "ex": [
+        "a pesar de sus deseos, no pueden obtenerlo",
+        "Despite their wishes, they can't get it"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 406,
+      "spa": "establecer",
+      "eng": "to establish",
+      "ex": [
+        "de ser posible establecer ese tipo de contacto personal",
+        "if possible establish that type of personal contact"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 407,
+      "spa": "seguro",
+      "eng": "safe, sure, secure",
+      "ex": [
+        "donde se podrán divertir en un ambiente seguro",
+        "where they can have fun in a safe environment"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 408,
+      "spa": "vista",
+      "eng": "view, sight",
+      "ex": [
+        "era un territorio fértil con una hermosa vista hacia la cordillera",
+        "It was a fertile territory with a beautiful view towards the mountain range"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 409,
+      "spa": "juego",
+      "eng": "game, play, sport",
+      "ex": [
+        "he escrito algunos libros de juego y diversión",
+        "I have written some game and fun books"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 410,
+      "spa": "subir",
+      "eng": "to go up",
+      "ex": [
+        "hay que subir a pie",
+        "You have to climb on foot"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 411,
+      "spa": "intentar",
+      "eng": "to try, attempt",
+      "ex": [
+        "¿Somos tan tontos como para intentar repetir la historia?",
+        "Are we so dumb as to try to repeat the story?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 412,
+      "spa": "personal",
+      "eng": "personal",
+      "ex": [
+        "decidió hacer esta película a partir de una experiencia personal",
+        "decided to make this film from a personal experience"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 413,
+      "spa": "fondo",
+      "eng": "bottom, end",
+      "ex": [
+        "llegaré al fondo de esta cuestión",
+        "I will get to the bottom of this issue"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 414,
+      "spa": "descubrir",
+      "eng": "to discover",
+      "ex": [
+        "otro policía descubrió un paquete en el suelo",
+        "Another policeman discovered a package on the ground"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 415,
+      "spa": "olvidar",
+      "eng": "to forget",
+      "ex": [
+        "no he podido olvidar aquella noche de tu despedida",
+        "I have not been able to forget that night of your farewell"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 416,
+      "spa": "experiencia",
+      "eng": "experience",
+      "ex": [
+        "• tengo experiencia de la vida y del amor",
+        "• I have life and love experience"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 417,
+      "spa": "incluir",
+      "eng": "to include",
+      "ex": [
+        "el Partido no incluye ni excluye a nadie",
+        "The party does not include or exclude anyone"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 418,
+      "spa": "condición",
+      "eng": "condition",
+      "ex": [
+        "el alcohol afecta a la condición física de todos los órganos",
+        "Alcohol affects the physical condition of all organs"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 419,
+      "spa": "edad",
+      "eng": "age",
+      "ex": [
+        "se acercaba a la edad de encontrar un hombre con quien casarse",
+        "He approached the age of finding a man to marry"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 420,
+      "spa": "andar",
+      "eng": "to walk, function",
+      "ex": [
+        "los niños pequeños tienen un andar chistoso",
+        "Young children have a funny walk"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 421,
+      "spa": "orden",
+      "eng": "order, sequence, religious",
+      "ex": [
+        "hay que poner todo en orden de prioridad",
+        "You have to put everything in order of priority"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 422,
+      "spa": "mal",
+      "eng": "badly",
+      "ex": [
+        "cometía un error, o vocalizaba mal",
+        "made a mistake, or vocalized bad"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 423,
+      "spa": "joven",
+      "eng": "teenager, young person",
+      "ex": [
+        "está dirigido a los jóvenes entre 16 y 20 años",
+        "It is aimed at young people between 16 and 20 years old"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 424,
+      "spa": "escuela",
+      "eng": "school",
+      "ex": [
+        "dicta clases en la Escuela de Medicina de esa Universidad",
+        "Dictates classes at the Medical School of that university"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 425,
+      "spa": "uno",
+      "eng": "one",
+      "ex": [
+        "hay uno que ya lo está haciendo",
+        "There is one who is already doing it"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 426,
+      "spa": "posible",
+      "eng": "possible",
+      "ex": [
+        "trató de hacer el menor ruido posible para no despertarla",
+        "He tried to make the least possible noise so as not to wake her up"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 427,
+      "spa": "aprender",
+      "eng": "to learn",
+      "ex": [
+        "¿Hay una manera mejor de aprender el otro lenguaje?",
+        "Is there a better way to learn the other language?"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 428,
+      "spa": "serie",
+      "eng": "series",
+      "ex": [
+        "en la combustión intervienen una serie de factores",
+        "In combustion a series of factors are involved"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 429,
+      "spa": "dedicar",
+      "eng": "to dedicate, devote",
+      "ex": [
+        "cuando se quedó sola, le dedicó más horas a escribir",
+        "When he stayed alone, he dedicated more hours to writing"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 430,
+      "spa": "necesidad",
+      "eng": "necessity, need",
+      "ex": [
+        "sentía la necesidad de ser comprendido",
+        "I felt the need to be understood"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 431,
+      "spa": "suponer",
+      "eng": "to suppose, assume",
+      "ex": [
+        "era absurdo suponer que la guerrilla cambiara sus planes",
+        "It was absurd to assume that the guerrillas changed their plans"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 432,
+      "spa": "aceptar",
+      "eng": "to accept",
+      "ex": [
+        "Adela estuvo indecisa en aceptar su petición de matrimonio",
+        "Adela was undecided in accepting her marriage request"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 433,
+      "spa": "comprender",
+      "eng": "to understand",
+      "ex": [
+        "los había leído todos, sin comprender mucho",
+        "I had all read them, without understanding much"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 434,
+      "spa": "fuerte",
+      "eng": "strong",
+      "ex": [
+        "el caballo era fuerte, bien alimentado, limpio, y hermoso",
+        "The horse was strong, well fed, clean, and beautiful"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 435,
+      "spa": "especial",
+      "eng": "special",
+      "ex": [
+        "siento también una especial predilección por Stravinski",
+        "I also feel a special predilection by Stravinski"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 436,
+      "spa": "iglesia",
+      "eng": "church",
+      "ex": [
+        "he asistido esta iglesia toda mi vida",
+        "I have attended this church all my life"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 437,
+      "spa": "seis",
+      "eng": "six",
+      "ex": [
+        "cinco por seis son treinta",
+        "five per six are thirty"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 438,
+      "spa": "obtener",
+      "eng": "to obtain",
+      "ex": [
+        "se hace la guerra para obtener la paz",
+        "War is made to get peace"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 439,
+      "spa": "ciento",
+      "eng": "hundred",
+      "ex": [
+        "• se pueda confiarme ciento por ciento",
+        "• You can trust me one hundred percent"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 440,
+      "spa": "falta",
+      "eng": "lack, shortage",
+      "ex": [
+        "sería una locura, una falta de ese sentido de la realidad",
+        "It would be crazy, a lack of that sense of reality"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 441,
+      "spa": "politica",
+      "eng": "politics, policy",
+      "ex": [
+        "se lanzan a un frenético debate sobre política",
+        "They are launched into a frantic debate about politics"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 442,
+      "spa": "especie",
+      "eng": "kind, sort, species",
+      "ex": [
+        "el único que llegó a ser una especie de monstruo fui yo",
+        "The only one that became a kind of monster was me"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 443,
+      "spa": "real",
+      "eng": "royal, real, authentic",
+      "ex": [
+        "fuimos a la biblioteca del palacio real de Madrid",
+        "We went to the Library of the Royal Palace of Madrid"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 444,
+      "spa": "nacer",
+      "eng": "to be born",
+      "ex": [
+        "Picasso nació en Málaga en 1881",
+        "Picasso was born in Malaga in 1881"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 445,
+      "spa": "cuál",
+      "eng": "which?",
+      "ex": [
+        "primero dime cuál es tu nombre",
+        "First tell what your name is"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 446,
+      "spa": "antiguo",
+      "eng": "old, ancient, former",
+      "ex": [
+        "es una de las obras más antiguas—fines del siglo 13",
+        "It is one of the oldest works of the 13th century"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 447,
+      "spa": "gracia",
+      "eng": "thank you, grace, favor",
+      "ex": [
+        "Bueno, gracias por tu tiempo",
+        "Well, thanks for your time"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 448,
+      "spa": "santo",
+      "eng": "saint",
+      "ex": [
+        "todos iban detrás del Santo Patrono con rezos y cánticos",
+        "All went behind the patron saint with prayers and songs"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 449,
+      "spa": "diez",
+      "eng": "ten",
+      "ex": [
+        "tengo una cita a las diez",
+        "I have an appointment at ten"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 450,
+      "spa": "tercero",
+      "eng": "third",
+      "ex": [
+        "en los primeros años de la tercera década del siglo",
+        "In the first years of the third decade of the century"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 451,
+      "spa": "espacio",
+      "eng": "space, room",
+      "ex": [
+        "ya no quedaba espacio para nadie alrededor del tranvía",
+        "There was no room left for anyone around the tram"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 452,
+      "spa": "bajo",
+      "eng": "short, low",
+      "ex": [
+        "las puertas de madera son bajas y rudas",
+        "Wooden doors are low and rude"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 453,
+      "spa": "publicar",
+      "eng": "to publish",
+      "ex": [
+        "voy a publicar otro libro con el resto",
+        "I'm going to publish another book with the rest"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 454,
+      "spa": "población",
+      "eng": "population",
+      "ex": [
+        "hay una población de 75 mil personas",
+        "There is a population of 75 thousand people"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 455,
+      "spa": "aspecto",
+      "eng": "aspect, appearance",
+      "ex": [
+        "uno de los aspectos más controvertidos del modernismo",
+        "One of the most controversial aspects of modernism"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 456,
+      "spa": "muchacho",
+      "eng": "boy",
+      "ex": [
+        "en aquella época yo era un muchacho de doce años",
+        "At that time I was a twelve -year -old boy"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 457,
+      "spa": "tarde",
+      "eng": "late",
+      "ex": [
+        "llegó tarde a clase porque el despertador no sonó",
+        "He arrived late because the alarm did not sound"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 458,
+      "spa": "articulo",
+      "eng": "article, product, item",
+      "ex": [
+        "no podía concentrarse en el artículo que estaba escribiendo",
+        "could not concentrate on the article I was writing"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 459,
+      "spa": "cantidad",
+      "eng": "quantity, amount",
+      "ex": [
+        "todo esto genera una cantidad de datos formidables",
+        "All this generates a formidable amount of data"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 460,
+      "spa": "sueño",
+      "eng": "dream, sleep",
+      "ex": [
+        "tenía sueño de ser estrella de cine",
+        "I was sleepy of being a movie star"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 461,
+      "spa": "posibilidad",
+      "eng": "possibility",
+      "ex": [
+        "debes considerar la posibilidad de buscar un trabajo nuevo",
+        "You should consider the possibility of looking for a new job"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 462,
+      "spa": "echar",
+      "eng": "to throw, cast",
+      "ex": [
+        "me echó de la casa y me fui",
+        "He threw me out of the house and left"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 463,
+      "spa": "internacional",
+      "eng": "international",
+      "ex": [
+        "gozan hoy día de un gran prestigio internacional",
+        "They enjoy great international prestige today"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 464,
+      "spa": "responder",
+      "eng": "to answer, respond",
+      "ex": [
+        "el Gobierno respondió por escrito a este diputado",
+        "The government responded in writing to this deputy"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 465,
+      "spa": "boca",
+      "eng": "mouth, entrance, opening",
+      "ex": [
+        "solamente es una boca más para alimentar",
+        "It's just one more mouth to feed"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 466,
+      "spa": "próximo",
+      "eng": "next",
+      "ex": [
+        "pasará el próximo semestre enseñando literatura",
+        "will spend next semester teaching literature"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 467,
+      "spa": "mover",
+      "eng": "to move, incite",
+      "ex": [
+        "no muévas la cámara",
+        "Do not move the camera"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 468,
+      "spa": "menor",
+      "eng": "younger, youngest",
+      "ex": [
+        "Le correspondió la peor parte por ser el hermano menor",
+        "He was the worst part for being the younger brother"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 469,
+      "spa": "cultura",
+      "eng": "culture",
+      "ex": [
+        "fue una primitiva cultura indoeuropea",
+        "It was a primitive Indo -European culture"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 470,
+      "spa": "brazo",
+      "eng": "arm",
+      "ex": [
+        "nos tomamos de la mano y del brazo mientras caminábamos",
+        "We take the hand and arm while we walked"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 471,
+      "spa": "uso",
+      "eng": "use",
+      "ex": [
+        "nunca recuperaré el uso de la mano derecha",
+        "I will never recover the use of the right hand"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 472,
+      "spa": "todo",
+      "eng": "all, every",
+      "ex": [
+        "todos los hombres son iguales",
+        "All men are the same"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 473,
+      "spa": "libre",
+      "eng": "free, vacant",
+      "ex": [
+        "estaré más tranquilo y con más tiempo libre",
+        "I will be calmer and more free time"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 474,
+      "spa": "ser",
+      "eng": "being",
+      "ex": [
+        "es un ser humano perfecto y un bárbaro a la vaz",
+        "It is a perfect human being and a barbarian to the vaz"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 475,
+      "spa": "corazón",
+      "eng": "heart, core",
+      "ex": [
+        "el amor llena tu corazón",
+        "Love fills your heart"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 476,
+      "spa": "linea",
+      "eng": "line, course",
+      "ex": [
+        "la línea del horizonte que separa el cielo del mar",
+        "The horizon line that separates the sky from the sea"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 477,
+      "spa": "sitio",
+      "eng": "place, space",
+      "ex": [
+        "de ocupar el sitio que me correspondía en la casa",
+        "of occupying the place that corresponded to me in the house"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 478,
+      "spa": "minuto",
+      "eng": "minute",
+      "ex": [
+        "antes del partido se va a guardar un minuto de silencio",
+        "Before the game you will keep a minute of silence"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 479,
+      "spa": "señalar",
+      "eng": "to point (out), signal",
+      "ex": [
+        "nos hizo señas y señaló hacia adelante",
+        "He signaled us and pointed forward"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 480,
+      "spa": "mar",
+      "eng": "sea",
+      "ex": [
+        "sobre todo en la región costeña del mar Rojo",
+        "Especially in the Red Sea coastal region"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 481,
+      "spa": "carrera",
+      "eng": "career, course, race",
+      "ex": [
+        "la carrera comenzó en la quinta avenida",
+        "The race began on Fifth Avenue"
+      ]
+    },
+    {
+      "category": 1,
+      "id": 482,
+      "spa": "base",
+      "eng": "base, basis",
+      "ex": [
+        "la mitología griega es la base de mucha literatura",
+        "Greek mythology is the basis of much literature"
+      ]
+    },
+    {
+      "category": 4,
+      "id": 1,
+      "spa": "alimento",
+      "eng": "food, nourishment",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 2,
+      "spa": "plato",
+      "eng": "plate, dish",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 3,
+      "spa": "cena",
+      "eng": "Dinner",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 4,
+      "spa": "agua",
+      "eng": "Water",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 5,
+      "spa": "carne",
+      "eng": "meat",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 6,
+      "spa": "café",
+      "eng": "coffee, cafe",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 7,
+      "spa": "pan",
+      "eng": "bread",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 8,
+      "spa": "vino",
+      "eng": "came",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 9,
+      "spa": "papa",
+      "eng": "dad",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 10,
+      "spa": "leche",
+      "eng": "milk",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 11,
+      "spa": "fruta",
+      "eng": "fruit",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 12,
+      "spa": "huevo",
+      "eng": "egg",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 13,
+      "spa": "azúcar",
+      "eng": "sugar",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 14,
+      "spa": "cerbeza",
+      "eng": "Cerbeza",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 15,
+      "spa": "alimentacion",
+      "eng": "feeding",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 16,
+      "spa": "bebida",
+      "eng": "beverage",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 17,
+      "spa": "almuerzo",
+      "eng": "lunch",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 18,
+      "spa": "desayuno",
+      "eng": "breakfast",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 19,
+      "spa": "manzana",
+      "eng": "apple",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 20,
+      "spa": "chocolate",
+      "eng": "chocolate",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 21,
+      "spa": "pescado",
+      "eng": "fish",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 22,
+      "spa": "sopa",
+      "eng": "Soup",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 23,
+      "spa": "dulce",
+      "eng": "sweet",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 24,
+      "spa": "jugo",
+      "eng": "juice",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 25,
+      "spa": "pasta",
+      "eng": "pasta",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 26,
+      "spa": "trigo",
+      "eng": "wheat",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 27,
+      "spa": "crema",
+      "eng": "cream",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 28,
+      "spa": "whisky",
+      "eng": "whiskey",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 29,
+      "spa": "sal",
+      "eng": "Salt",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 30,
+      "spa": "ingrediente",
+      "eng": "ingredient",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 31,
+      "spa": "banquete",
+      "eng": "feast",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 32,
+      "spa": "pastel",
+      "eng": "pie",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 33,
+      "spa": "caramelo",
+      "eng": "candy",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 34,
+      "spa": "cebolla",
+      "eng": "onion",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 35,
+      "spa": "platano",
+      "eng": "banana",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 36,
+      "spa": "caldo",
+      "eng": "broth",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 37,
+      "spa": "ensalada",
+      "eng": "salad",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 38,
+      "spa": "cereal",
+      "eng": "cereal",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 39,
+      "spa": "patata",
+      "eng": "potato",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 40,
+      "spa": "ajo",
+      "eng": "Garlic",
+      "ex": []
+    },
+    {
+      "category": 4,
+      "id": 41,
+      "spa": "piña",
+      "eng": "pineapple",
       "ex": []
     }
   ]

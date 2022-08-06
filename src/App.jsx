@@ -70,7 +70,7 @@ export default function App() {
         : cardIdEl.current.valueAsNumber
     );
   }
-
+  // console.log(flashcards);
   return (
     <>
       <form className="header" onSubmit={handleSubmit}>
@@ -87,7 +87,7 @@ export default function App() {
           </select>
         </div>
         <div className="form-group">
-          <label htmlFor="cardId">Question ID</label>
+          <label htmlFor="cardId">Card #</label>
           <input
             type="number"
             id="cardId"
@@ -110,6 +110,7 @@ export default function App() {
       </form>
       <div className="container">
         <span className="show-id">Current card: {showCardId}</span>
+        <img src="./conjugations.png" alt="conjugations" className="conj-img" />
         <FlashcardList flashcards={flashcards} />
       </div>
       <div className="footer">

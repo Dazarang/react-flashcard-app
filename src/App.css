@@ -85,7 +85,7 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
   background-color: rgb(24, 26, 27);
   color: #e8e6e3;
@@ -93,6 +93,7 @@ body {
   transition: 150ms;
   cursor: pointer;
   width: 650px;
+  padding: 0.5rem;
   transform: perspective(1000px) rotateY(var(--rotate-y, 0))
     translateY(var(--translate-y, 0));
 }
@@ -112,7 +113,7 @@ body {
   margin-top: 4rem;
   padding: 1rem;
   backface-visibility: hidden;
-  font-size: 5rem;
+  font-size: 4.5rem;
   font-weight: bold;
 }
 
@@ -169,4 +170,13 @@ body {
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
   color: antiquewhite;
   text-align: left;
+}
+
+.conj-img {
+  border-radius: 10px;
+  position: absolute;
+  display: flex;
+  left: 0;
+  margin-top: 4%;
+  margin-left: 2%;
 }
