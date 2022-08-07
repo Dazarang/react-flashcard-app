@@ -114,7 +114,7 @@ export default function App() {
         <FlashcardList flashcards={flashcards} />
       </div>
       <div className="footer">
-        <p>© Dena Azarang</p>
+        <p>© Made by Dena Azarang</p>
       </div>
     </>
   );
