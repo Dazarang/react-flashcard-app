@@ -79,6 +79,8 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  padding-bottom: 5rem;
+  padding-left: 5rem;
 }
 
 .card {
@@ -116,6 +118,7 @@ body {
   backface-visibility: hidden;
   font-size: 4.5rem;
   font-weight: bold;
+  text-align: center;
 }
 
 .card .back {
@@ -159,6 +162,7 @@ body {
   margin-bottom: 2rem;
   color: #e8e6e3;
   font-size: 2.5rem;
+  padding-left: 5rem;
 }
 
 .footer {
@@ -175,9 +179,13 @@ body {
 
 .conj-img {
   border-radius: 10px;
+  max-width: 22%;
   position: absolute;
   display: flex;
-  left: 0;
+  left: auto;
   margin-top: 4%;
-  margin-left: 2%;
+  /* margin-left: 2%; */
 }
+
+/* .conj-span {
+  /* position: relative; */

@@ -11,7 +11,7 @@ export default function Flashcard({ flashcard }) {
     const frontHeight = frontEl.current.getBoundingClientRect().height;
     const backHeight = backEl.current.getBoundingClientRect().height;
 
-    setHeight(Math.max(frontHeight, backHeight, 450));
+    setHeight(Math.max(frontHeight, backHeight, 400));
   }
 
   useEffect(setMaxHeight, [flashcard.eng, flashcard.spa, flashcard.ex]);
@@ -24,11 +24,27 @@ export default function Flashcard({ flashcard }) {
     setFlip(!flip);
   }
 
+  function handleKeyPress(event) {
+    if (event.keyCode == 32 || event.keyCode == 38 || event.keyCode == 40) {
+      handleFlip();
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener("keydown", handleKeyPress);
+    // return cleanup funtion to remove the handler after use
+    return () => {
+      window.removeEventListener("keydown", handleKeyPress);
+    };
+  });
+
   return (
     <div
       className={`card ${flip ? "flip" : ""}`}
       style={{ height: height }}
       onClick={handleFlip}
+      // tabIndex="0"
+      // onKeyPress={handleKeyPress}
     >
       <img className="front-img" src="./britain.png" alt="britain" />
       <img className="back-img" src="./spain.png" alt="britain" />

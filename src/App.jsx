@@ -26,6 +26,24 @@ export default function App() {
     setCardId((prevCardId) => prevCardId - 1);
   }
 
+  function handleKeyPress(e) {
+    if (e.keyCode == 39 || e.keyCode == 68) {
+      handleClickAdd();
+      handleSubmit(e);
+    } else if (e.keyCode == 37 || e.keyCode == 65) {
+      handleClickSub();
+      handleSubmit(e);
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener("keydown", handleKeyPress);
+    // return cleanup funtion to remove the handler after use
+    return () => {
+      window.removeEventListener("keydown", handleKeyPress);
+    };
+  });
+
   useEffect(() => {
     cardIdEl.current.value = cardId;
   }, [cardId]);
@@ -37,6 +55,7 @@ export default function App() {
       .get("http://localhost:8000/cards", {
         params: {
           id: cardIdEl.current.value,
+          // id: cardId,
           category: categoryEl.current.value,
         },
       })
@@ -55,20 +74,13 @@ export default function App() {
   }
 
   function handleChange() {
-    setCardId((prevCardId) =>
-      cardIdEl.current.value > prevCardId
-        ? cardIdEl.current.valueAsNumber
-        : cardIdEl.current.valueAsNumber
-    );
+    setCardId((prevCardId) => (prevCardId = cardIdEl.current.valueAsNumber));
   }
 
-  function handleCatChange() {
+  function handleCatChange(e) {
     cardIdEl.current.value = 1;
-    setCardId((prevCardId) =>
-      cardIdEl.current.value > prevCardId
-        ? cardIdEl.current.valueAsNumber
-        : cardIdEl.current.valueAsNumber
-    );
+    setCardId((prevCardId) => (prevCardId = cardIdEl.current.valueAsNumber));
+    handleSubmit(e);
   }
   // console.log(flashcards);
   return (
@@ -110,7 +122,14 @@ export default function App() {
       </form>
       <div className="container">
         <span className="show-id">Current card: {showCardId}</span>
-        <img src="./conjugations.png" alt="conjugations" className="conj-img" />
+
+        <span className="conj-span">
+          <img
+            src="./conjugations.png"
+            alt="conjugations"
+            className="conj-img"
+          />
+        </span>
         <FlashcardList flashcards={flashcards} />
       </div>
       <div className="footer">
